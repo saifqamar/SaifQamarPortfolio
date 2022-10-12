@@ -1,11 +1,214 @@
-.App {
+*{
+  padding: 0;
+  margin: 0;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+.bak{
+  background: #000000;
+  width: 100%;
+}
+
+.header{
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.header ul{
+  width: 70%;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  column-gap: 50px;
+}
+
+
+.header ul li a{
+  text-decoration: none;
+  color: rgb(218, 218, 218);
+}
+
+
+
+.logo{
+  width: 80px;
+  height: auto;
+}
+
+.hero{
+  width: 100%;
+  /* height: 95vh; */
+  background: #000000;
+  overflow: hidden;
+}
+
+.main-head{
+  display: flex;
+  margin-left: 3%;
+  margin-top: 20px;
+  align-items: center;
+  column-gap: 60px;
+
+}
+
+.line-social{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.social-media{
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.social-media a{
+  color: white;
+}
+
+.line{
+  border-left: 2px solid rgb(255, 255, 255);
+  height: 450px;
+}
+
+
+
+.main-img{
+  width: 40%;
+  height: auto;
+}
+
+.heading{
+  color: white;
+  margin-top: -120px;
+}
+
+.heading p{
+  font-size: 30px;
+}
+
+
+/* Services */
+.gutter{
+  margin: 100px 0px;
+  width: 100%;
   text-align: center;
 }
+
+.ser-back{
+  width: 100%;
+  /* height: auto; */
+  background: black;
+  overflow: hidden;
+  padding-bottom: 50px;
+}
+
+.services{
+  margin-top: 50px;
+  color: white;
+  text-align: center;
+}
+
+.ser-btn{
+  margin: 40px 0px;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+  column-gap: 50px;
+}
+
+.service-ui{
+  text-decoration: none;
+  margin-top: 50px;
+  color: rgb(170, 169, 169);
+  font-size: 18px;
+}
+
+
+.ser-active{
+  padding: 14px 20px;
+  border: 1px solid rgb(128, 128, 128);
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 7px;
+}
+
+
+
+/* Cards */
+.cards{
+  display: flex;
+  column-gap: 20px;
+  row-gap: 40px;
+  margin-top: 60px;
+  justify-content: center;
+  flex-wrap:wrap;
+
+}
+
+.cards a{
+  width: 30%;
+  min-width: 240px;
+}
+
+.card{
+  width: 100%;
+  height: 354px;
+  background: #0c0c0c;
+  border-radius: 10px;
+  outline: 1px solid #676767;
+  overflow: hidden;
+}
+
+
+.card:hover{
+  box-shadow: 0px 28px 27px rgba(42, 42, 42, 0.857);
+  transition: 0.4s;
+}
+
+.crd-image{
+  width: 100%;
+  height: 290px;
+  background: #282c34;
+}
+
+.crd-image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.crd-title{
+  width: 100%;
+  
+  background: #0c0c0c;
+  text-align: center;
+}
+
+.crd-title h4{
+  color: #fff;
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

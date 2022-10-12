@@ -1,0 +1,30 @@
+import React from "react";
+import '../App.css';
+
+
+const Hero = () =>{
+    return (
+        <div className="hero">
+            <div className="container">
+                <div className="main-head">
+                    <div className="line-social">
+                        <div className="line"></div>
+                        <div class="social-media">
+                            <a href=""><i class="fa-brands fa-instagram"></i></a> 
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div className="heading">
+                        <h1>Hi I am Saif,</h1>
+                        <p>a UIUX Designer and Front-end Developer who is passionate about creating Digital epxeriences Through problem solving.</p>
+                    </div>
+
+                    <img className="main-img" src="images/main.jpg" alt="" />
+                </div>
+            </div>
+        </div>
+    )
+}
+
+export default Hero
