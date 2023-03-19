@@ -5,8 +5,8 @@ import '../App.css';
 const Hero = () =>{
     return (
         <div className="hero">
-            <div className="container">
-                <div className="main-head">
+            <div className="container main-head-flex">
+                <div className="main-head" id="">
                     <div className="line-social">
                         <div className="line"></div>
                         <div class="social-media">
@@ -20,7 +20,7 @@ const Hero = () =>{
                         <p>a UIUX Designer and Front-end Developer who is passionate about creating Digital epxeriences Through problem solving.</p>
                     </div>
 
-                    <img className="main-img" src="images/main.jpg" alt="" />
+                    {/* <img className="main-img" src="images/main.jpg" alt="" /> */}
                 </div>
             </div>
         </div>
