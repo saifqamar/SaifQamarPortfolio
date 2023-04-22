@@ -185,7 +185,7 @@ body{
   width: 100%;
   height: 354px;
   min-width: 370px;
-  background: #0c0c0c;
+  background: #181818;
   border-radius: 10px;
   outline: 1px solid #505050;
   overflow: hidden;
@@ -211,8 +211,6 @@ body{
 
 .crd-title{
   width: 100%;
-  
-  background: #0c0c0c;
   text-align: center;
 }
 
@@ -267,6 +265,171 @@ body{
 
 } */
 
+
+
+/* About */
+
+.about-sec{
+  margin: auto;
+  margin-top: 100px;
+}
+
+.about-sec h1{
+  color: white;
+  margin: auto;
+  text-align: center;
+  font-weight: 400;
+  font-size: 48px;
+
+}
+
+.whole-about-sec{
+  margin: auto;
+  margin-top: 60px;
+  color: white;
+  display: flex;
+  column-gap: 80px;
+}
+
+.my-pic{
+  width: 35%;
+  /* height: 500px; */
+}
+
+.my-pic img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.about-details{
+  width: 60%;
+}
+
+.about-details p{
+  margin-bottom: 20px;
+  font-size: 18px;
+  /* line-height: 0px; */
+}
+
+.about-details h4{
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.skill-container{
+  display: flex;
+  column-gap: 40px;
+}
+
+.skill-box{
+  width: 145px;
+  height: 145px;
+  background: #0E0E0E;
+  border-radius: 10px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transition: all ease-in-out 500ms;
+}
+
+.skill-box:hover{
+  background: #5754E9;
+}
+
+.skill-box h5{
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+}
+
+.skill-icon{
+  width: auto;
+  height: 70px;
+}
+
+.skill-icon img{
+  width: 100%;
+  height: 100%;
+}
+
+
+/* Work Details */
+
+.workdet-box{
+  background: #0E0E0E;
+  margin-top: 152px;
+  ;
+}
+
+.work-det{
+  padding: 50px 80px;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.work-sec{
+  text-align: center;
+}
+
+.work-sec h1{
+  font-size: 72px;
+  font-weight: 400;
+}
+
+.work-sec p{
+  font-size: 24px;
+  font-weight: 400;
+}
+
+/* Contact */
+.contact-box{
+  background: #0E0E0E;
+  margin-top: 152px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.contact-det{
+  text-align: center;
+  padding-top: 86px;
+  padding-bottom: 86px;
+  height: 100%;
+}
+
+.contact-det h1{
+  color: white;
+  font-size: 48px;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.contact-btn{
+  padding: 17px 75px;
+  font-size: 18px;
+  cursor: pointer;
+  color: #fff;
+  background: #5754E9;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact-btn:hover{
+  background: #716ff0;
+}
+
+
+/* Footer */
+
+.footer p{
+  text-align: center;
+}
 
 .App-logo {
   height: 40vmin;
