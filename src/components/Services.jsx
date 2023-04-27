@@ -1,28 +1,44 @@
-import React from "react";  
+import React,{useState} from "react";  
 import '../App.css';
-import PhotoCards from "./PhotoCards";
+// import PhotoCards from "./PhotoCards";
 import Cards from "./Cards";
+import { NavLink } from "react-router-dom";
+import data from "../data";
 
 
 
 const Services = ()=> {
+    const [activeCategory, setActiveCategory] = useState('uiux');
+  
+    const handleCategoryClick = (category) => {
+    setActiveCategory(category);
+    };
+
+    
     return(
         <div className="ser-back">
             <div className="container services" id="work">
                 <h1>Work</h1>
                 <ul className="ser-btn">
-                    <li><a className="service-ui ser-active" href=".">UI/UX</a></li>
-                    <li><a className="service-ui" href=".">Web Development</a></li>
-                    {/* <li><a className="service-ui" href=".">Photography</a></li> */}
-                    {/* <li><a className="service-ui" href=".">Illustration & art</a></li> */}
+                {Object.keys(data).map((category) => (
+                    <li>
+                        <button
+                        key={category}
+                        onClick={() => handleCategoryClick(category)}
+                        className={activeCategory === category ? 'service-ui active' : 'service-ui'}>
+                        {category === "uiux" ? 'UI/UX': "Web Development"}
+                        </button>
+                    </li>
+                    )).reverse()}
+
                 </ul>
             </div>
             <div className="container">
-                <Cards />
-                {/* <PhotoCards /> */}
+                <Cards activeData={data[activeCategory]}/>
+                
             </div>
         </div>
-        
+
     )
 }
 

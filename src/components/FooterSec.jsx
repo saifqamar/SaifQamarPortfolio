@@ -2,15 +2,15 @@ import React from "react";
 import '../App.css';
 
 
-const Footer = ()=>{
+const FooterSec = ()=>{
     return (
-        <Footer className="footer">
+        <div className="footer">
             <div className="container">
                 <p>Copyrights @ 2022 Saif Qamar. All rights reserved.</p>
             </div>
-        </Footer>
+        </div>
     )
 }
 
 
-export default Footer
+export default FooterSec

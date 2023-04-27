@@ -125,7 +125,7 @@ body{
 .ser-back{
   width: 100%;
   /* height: auto; */
-  background: #181818;
+  /* background: #181818; */
   overflow: hidden;
   padding-bottom: 50px;
 }
@@ -142,6 +142,7 @@ body{
   list-style: none;
   justify-content: center;
   column-gap: 50px;
+  align-items: center;
 }
 
 .service-ui{
@@ -149,10 +150,15 @@ body{
   margin-top: 50px;
   color: rgb(170, 169, 169);
   font-size: 18px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s all;
+
 }
 
 
-.ser-active{
+.active{
   padding: 14px 20px;
   border: 1px solid rgb(128, 128, 128);
   text-align: center;
@@ -426,9 +432,15 @@ body{
 
 
 /* Footer */
+.footer{
+  margin-top: 100px;
+  background: #0E0E0E;
+  padding: 40px 0px;
+}
 
 .footer p{
   text-align: center;
+  color: #fff;
 }
 
 .App-logo {

@@ -1,26 +1,21 @@
 import logo from './logo.svg';
 import './App.css';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import LandingPage from './pages/LandingPage';
 import Header from './components/Header';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import About from './components/About';
-import {BrowserRouter as Router, Route, } from 'react-router-dom';
-import Contact from './components/Contact';
 import WorkDet from './components/WorkDetails';
-import Footer from './components/Footer';
+import ProDetails from './pages/ProjectDetail';
 
 
 function App() {
   return (
-    <div className="App">
+    <BrowserRouter className="App">
       <Header />
-      <Hero />
-      <Services /> 
-      <WorkDet />
-      <About />
-      <Contact />
-      <Footer />
-    </div>
+      <Routes>
+        <Route path='/' element={<LandingPage />} />
+        <Route exact path="/cards/:id" element={<ProDetails />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
