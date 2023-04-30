@@ -449,6 +449,18 @@ body{
 }
 
 
+/* Project Details */
+.projdetimg{
+  width: 100%;
+  height: auto;
+}
+
+.projdetimg img{
+  width: 100%;
+  height: auto;
+}
+
+
 
 
 @media (prefers-reduced-motion: no-preference) {

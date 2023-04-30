@@ -1,21 +1,28 @@
 import React from "react";
 import '../App.css';
-// import { useState, useEffect } from 'react';
+import { useParams } from "react-router-dom";
+// import { useParams } from 'react';
+import ProjectDetailsData from "../ProjectDetailsData";
+
 
 
 const ProDetails = ({ match }) => {
-    // const [projData, setProjData] = useState(null);
-//   useEffect(() => {
-//     fetch(`../data.${match.params.id}.jsx`)
-//       .then(response => response.json())
-//       .then(data => setProjData(data));
-//   }, [match.params.id]);
-
-
+  let {cat, id} = useParams()
+  console.log(cat)
+  console.log(id)
+  const images = ProjectDetailsData[cat][id - 1]['images'];
+  console.log(images)
+  
   return (
-    <div className="container">
+    <div className="">
       {/* {cardData && <Card card={cardData} />} */}
-      <h1>Helloworld</h1>
+      {images.map((image)=>(
+        <div className="projdetimg">
+          <img src={image} alt="img" />
+        </div>
+        // <h1>hello</h1>
+      ))}
+      
     </div>
   );
 };

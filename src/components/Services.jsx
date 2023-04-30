@@ -13,7 +13,7 @@ const Services = ()=> {
     const handleCategoryClick = (category) => {
     setActiveCategory(category);
     };
-
+    
     
     return(
         <div className="ser-back">
@@ -34,7 +34,7 @@ const Services = ()=> {
                 </ul>
             </div>
             <div className="container">
-                <Cards activeData={data[activeCategory]}/>
+                <Cards activeData={data[activeCategory]} cat={activeCategory}/>
                 
             </div>
         </div>

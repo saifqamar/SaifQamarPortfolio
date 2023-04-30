@@ -5,8 +5,8 @@ import '../App.css';
 
 const About = () => {
     return (
-        <div className="about-sec container">
-            <h1>About   </h1>
+        <div className="about-sec container"  id="about">
+            <h1>About</h1>
             <div className="whole-about-sec">
                 <div className="my-pic">
                     <img src="images/mansab.jpg" alt="" />
