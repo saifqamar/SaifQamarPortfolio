@@ -5,6 +5,7 @@ import LandingPage from './pages/LandingPage';
 import Header from './components/Header';
 import WorkDet from './components/WorkDetails';
 import ProDetails from './pages/ProjectDetail';
+import FooterSec from './components/FooterSec';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<LandingPage />} />
         <Route exact path="/:cat/:id" element={<ProDetails />} />
       </Routes>
+      <FooterSec />
     </BrowserRouter>
   );
 }

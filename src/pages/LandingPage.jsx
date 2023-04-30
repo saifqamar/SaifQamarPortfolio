@@ -18,7 +18,7 @@ function LandingPage() {
       <WorkDet />
       <About />
       <Contact />
-      <FooterSec />
+      {/* <FooterSec /> */}
     </>
   );
 }
