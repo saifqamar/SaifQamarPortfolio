@@ -4,10 +4,11 @@ import Card from "./Card";
 
 
 export default function Cards(props){
+    
     return(
         <div className="cards">
             {props.activeData.map((item) => (
-                <Card key={item.id} item={item} />
+                <Card key={item.id} item={item} cat={props.cat}/>
             ))}
             {/* <Card link="images/appdesign.jpg" name="This is Finance App"/>
             <Card link="https://www.creative.onl/wp-content/uploads/2020/12/ui-design-scaled-1200x800.jpg"/>

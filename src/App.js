@@ -13,7 +13,7 @@ function App() {
       <Header />
       <Routes>
         <Route path='/' element={<LandingPage />} />
-        <Route exact path="/cards/:id" element={<ProDetails />} />
+        <Route exact path="/:cat/:id" element={<ProDetails />} />
       </Routes>
     </BrowserRouter>
   );
