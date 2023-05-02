@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter className="App">
       <Header />
       <Routes>
-        <Route path='' element={<LandingPage />} />
+        <Route path='SaifQamarPortfolio' element={<LandingPage />} />
         <Route exact path="/:cat/:id" element={<ProDetails />} />
       </Routes>
       <FooterSec />
