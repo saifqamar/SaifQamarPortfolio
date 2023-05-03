@@ -30,7 +30,7 @@ const Services = ()=> {
                         </button>
                     </li>
                     )).reverse()}
-
+                    
                 </ul>
             </div>
             <div className="container">
