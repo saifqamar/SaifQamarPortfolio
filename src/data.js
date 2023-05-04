@@ -32,7 +32,37 @@ export default
               id: 3,
               img: "https://dreamwalk.com.au/wp-content/uploads/2022/02/app-ui-design-with-rounded-corners.jpeg",
               title: "Web Design Principles and Best Practices"
+            },
+            {
+              id: 4,
+              img: "https://dreamwalk.com.au/wp-content/uploads/2022/02/app-ui-design-with-rounded-corners.jpeg",
+              title: "Web Design Principles and Best Practices"
+            },
+            {
+              id: 5,
+              img: "https://dreamwalk.com.au/wp-content/uploads/2022/02/app-ui-design-with-rounded-corners.jpeg",
+              title: "Web Design Principles and Best Practices"
+            }
+          ],
+          photography:[
+            {
+              id: 1,
+              title: "this is title for photo",
+              img: "https://dreamwalk.com.au/wp-content/uploads/2022/02/app-ui-design-with-rounded-corners.jpeg",
+            },
+            {
+              id: 2,
+              title: "this is title for photo",
+              img: "https://img.freepik.com/free-vector/gradient-ui-kit-apps_79603-1769.jpg?w=2000",
+
+            },
+            {
+              id:3,
+              title: "this is title for photo",
+              img: "https://www.creative.onl/wp-content/uploads/2020/12/ui-design-scaled-1200x800.jpg",
+
             }
           ]
+          
     }
     

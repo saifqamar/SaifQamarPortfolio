@@ -9,8 +9,8 @@ const Header = () => {
     <div className='container header'>
       <img className='logo' src="images/logo.svg" alt="" />
       <ul>
-        <li><Link to={'/'}>Home</Link></li>
-        <li><a to="#work">Work</a></li>
+        <li><Link to={'/SaifQamarPortfolio'}>Home</Link></li>
+      <li><Link to={"/SaifQamarPortfolio#work"}>Work</Link></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>        
       </ul>
