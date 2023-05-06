@@ -6,6 +6,8 @@
 
 body{
   background: #181818;
+  position: relative;
+
 }
 
 .container{
@@ -502,6 +504,19 @@ body{
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+
+/* Send Mail */
+
+.mail-con{
+  position: absolute;
+  height: 100vh;
+  background-color: #00000080;
+  top: 0%;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
 }
 
 .App-link {
