@@ -486,6 +486,84 @@ body{
   height: auto;
 }
 
+/* Send Mail */
+
+.mail-con{
+  position: absolute;
+  height: 100vh;
+  background-color: #181818;
+  bottom: 0%;
+  right: 0%;
+  left: 0%;
+}
+
+.mailbox-f{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.mailbox{
+  background-color: #282c34;
+  padding: 40px 50px 50px;
+  border-radius: 5px;
+}
+
+
+.mailbox form{
+  display: flex;
+  flex-direction: column;
+  row-gap: 15px;
+  
+}
+
+.mailbox .text-inp{
+  width: 350px;
+  background: none;
+  /* height: 50px; */
+  border: 1px solid #ffffff6b;
+  border-radius: 5px;
+  padding-left: 12px;
+  color: #D8D8D8;
+  padding: 12px;
+  font-size: 16px;
+}
+
+
+#txt-area{
+  background: none;
+  border: 1px solid #ffffff6b;
+  border-radius: 5px;
+  padding: 12px 0px 0px 12px;
+  color: #D8D8D8;
+  font-size: 16px;
+}
+
+.send-msg{
+  padding: 12px 0px;
+  background: #5754E9;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #ffffff;
+  cursor: pointer;
+
+}
+
+.goback-btn{
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px;
+  background: none;
+  border: 1px solid #d8d8d88a;
+  color: #D8D8D8;
+  font-size: 16px;
+}
+
 
 
 
@@ -507,17 +585,7 @@ body{
 }
 
 
-/* Send Mail */
 
-.mail-con{
-  position: absolute;
-  height: 100vh;
-  background-color: #00000080;
-  top: 0%;
-  bottom: 0%;
-  right: 0%;
-  left: 0%;
-}
 
 .App-link {
   color: #61dafb;

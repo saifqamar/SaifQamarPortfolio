@@ -10,6 +10,8 @@ import Photography from './pages/Photography';
 
 
 function App() {
+  
+
   return (
     <BrowserRouter className="App">
       <Header />
