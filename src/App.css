@@ -508,7 +508,7 @@ body{
 }
 
 .mailbox{
-  background-color: #282c34;
+  background-color: #000000;
   padding: 40px 50px 50px;
   border-radius: 5px;
 }
@@ -533,6 +533,9 @@ body{
   font-size: 16px;
 }
 
+.text-inp:focus{
+  outline: none;
+}
 
 #txt-area{
   background: none;
@@ -543,6 +546,10 @@ body{
   font-size: 16px;
 }
 
+#txt-area:focus{
+  outline: none;
+}
+
 .send-msg{
   padding: 12px 0px;
   background: #5754E9;
@@ -551,7 +558,6 @@ body{
   font-size: 16px;
   color: #ffffff;
   cursor: pointer;
-
 }
 
 .goback-btn{
@@ -562,6 +568,13 @@ body{
   border: 1px solid #d8d8d88a;
   color: #D8D8D8;
   font-size: 16px;
+  cursor: pointer;
+  transition: 0.2s ease-in ;
+}
+
+.goback-btn:hover{
+  background: #181818;
+
 }
 
 
