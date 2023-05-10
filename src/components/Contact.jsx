@@ -4,12 +4,16 @@ import SendMail from "./SendMail";
 
 
 const Contact = ()=>{
-    const [showComponent, setShowComponent] = useState(false);
+    const [showComponent, setShowComponent] = useState({avail : true, top: top});
     
     var top; 
+    top = window.scrollY + 'px'
     const handleButtonClick = () => {
-        top = window.scrollY + 'px'
-        setShowComponent(true);
+        
+        setShowComponent(prevVal => ({
+            ...prevVal,
+            top: window.scrollY + 'px'
+        }));
         document.querySelector('.mail-con').style.display = 'block';
         document.querySelector('body').style.overflow ='hidden';
 
