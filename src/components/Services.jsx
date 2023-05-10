@@ -28,40 +28,23 @@ const Services = ()=> {
             }
         })
     })
-
-    // let showbtn = document.querySelector(".show-more-btn")
-    
-    // if(data[activeCategory].length > 3){
-    //     showbtn.style.display = 'none'
-    // } 
-    
     
     return(
         <div className="ser-back">
             <div className="container services" id="work">
                 <h1>Work</h1>
                 <ul className="ser-btn">
-                {/* {Object.keys(data).map((category) => (
-                    <li>
-                        <button
-                        key={category}
-                        onClick={() => handleCategoryClick(category)}
-                        className={activeCategory === category ? 'service-ui active' : 'service-ui'}>
-                        {category === "uiux" ? 'UI/UX': "Web Development"}
-                        </button>
-                    </li>
-                    )).reverse()} */}
                     <button onClick={() => handleCategoryClick("uiux")} className="service-ui active" id="uiux">UI/UX</button>
                     <button onClick={() => handleCategoryClick("web_dev")} className="service-ui" id="web_dev">Web Dev</button>
-                    <button onClick={() => handleCategoryClick("photography")} className="service-ui" id="photography">Photography</button>
+                    {/* <button onClick={() => handleCategoryClick("photography")} className="service-ui" id="photography">Photography</button> */}
                     
                 </ul>
             </div>
             <div className="container">
                 <Cards activeData={data[activeCategory].slice(0,3)} cat={activeCategory}/>
-                <div className="show-more-btn-con">
+                {/* <div className="show-more-btn-con">
                     <Link to={`/SaifQamarPortfolio/${activeCategory}`} style={{textDecoration:'none'}}><button className="show-more-btn contact-btn" style={{display: data[activeCategory].length > 3 ? 'block': 'none'}}>Show More</button></Link>
-                </div>
+                </div> */}
                 
             </div>
         </div>
