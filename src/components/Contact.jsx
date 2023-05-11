@@ -4,14 +4,14 @@ import SendMail from "./SendMail";
 
 
 const Contact = ()=>{
-    const [showComponent, setShowComponent] = useState({avail : true, top: top});
+    const [showComponent, setShowComponent] = useState({avail : false, top: window.scrollY + 'px'});
     
-    var top; 
-    top = window.scrollY + 'px'
+    
     const handleButtonClick = () => {
         
-        setShowComponent(prevVal => ({
-            ...prevVal,
+        setShowComponent(() => ({
+            // ...prevVal,
+            avail:true,
             top: window.scrollY + 'px'
         }));
         document.querySelector('.mail-con').style.display = 'block';
@@ -25,7 +25,7 @@ const Contact = ()=>{
                 <h1>Let’s build you dream Project</h1>
                 {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPCMbkGCAFUa43PRfRPiZljgVpPjD0w-f7Z3MUTcLv5M_HHw/viewform?usp=sf_link"> */}
                 <button className="contact-btn" onClick={handleButtonClick}>Contact Me</button>
-                {showComponent && <SendMail top={top} />}
+                {showComponent['avail'] && <SendMail top={showComponent['top']} />}
                 {/* </a> */}
             </div>
         </div>
