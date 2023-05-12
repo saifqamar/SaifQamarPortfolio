@@ -4,11 +4,10 @@ import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {
-  const btn = document.querySelector('.nav-toggle');
-  const el = document.querySelector('.links');
+  var links = document.querySelector("ul");
   const showlist =  () => {
-      console.log(el.classList)
-      el.classList.toggle('show-links');
+    console.log(links.classList)
+      links.classList.toggle('show-links');
   }
 
   return (
@@ -20,9 +19,9 @@ const Header = () => {
             <i class="fas fa-bars"></i>
         </button>
       </div>
-      <ul className='links'>
+      <ul className="links" id='link'>
         <li><NavLink exact to={'/SaifQamarPortfolio'}>Home</NavLink></li>
-      <li><NavLink to={"/SaifQamarPortfolio#work"}>Work</NavLink></li>
+        <li><NavLink to={"/SaifQamarPortfolio#work"}>Work</NavLink></li>
         <li><a href="#about">About</a></li>
         <li><a href="#contact">Contact</a></li>        
       </ul>
