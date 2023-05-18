@@ -18,9 +18,9 @@ const SendMail = (props)=>{
                             <input type="text" className="text-inp" placeholder="Enter Name"/>
                             <input type="email" className="text-inp" placeholder="john@example.com"/>
                         </div>
-                        <div className="name-mail">
+                        <div className="option-con">
                             {/* <input type="text" className="text-inp" placeholder="Enter Name"/> */}
-                            <select name="cars" id="cars" className="text-inp">
+                            <select name="cars" id="cars" className="options">
                                 <option value="volvo">Select the Project Type</option>
                                 <option value="volvo">UI/UX</option>
                                 <option value="saab">Front End Development</option>
@@ -29,7 +29,7 @@ const SendMail = (props)=>{
                             </select>
                             {/* <input type="email" className="text-inp" placeholder="john@example.com"/> */}
 
-                            <select name="cars" id="cars" className="text-inp">
+                            <select name="cars" id="cars" className="options">
                                 <option value="volvo">Select Time For Project</option>
                                 <option value="volvo">15 days</option>
                                 <option value="saab">1 month</option>
@@ -38,7 +38,7 @@ const SendMail = (props)=>{
                             </select>
 
 
-                            <select name="cars" id="cars" className="text-inp">
+                            <select name="cars" id="cars" className="options">
                                 <option value="volvo">Select the budget</option>
                                 <option value="volvo">$100-$500</option>
                                 <option value="saab">$500-$1000</option>
