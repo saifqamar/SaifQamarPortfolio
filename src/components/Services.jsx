@@ -17,14 +17,14 @@ const Services = ()=> {
     const btns = document.querySelectorAll(".service-ui");
     btns.forEach((btn) =>{
         if(btn.id !== activeCategory){
-            btn.classList.remove('active');
+            btn.classList.remove('active-ser');
         }else{
-            btn.classList.add('active');
+            btn.classList.add('active-ser');
         }
         btn.addEventListener('click', function(){
             console.log(btn.id)
             if(btn.id !== activeCategory){
-                btn.classList.remove('active');
+                btn.classList.remove('active-ser');
             }
         })
     })
@@ -34,7 +34,7 @@ const Services = ()=> {
             <div className="container services" id="work">
                 <h1>Work</h1>
                 <ul className="ser-btn">
-                    <button onClick={() => handleCategoryClick("uiux")} className="service-ui active" id="uiux">UI/UX</button>
+                    <button onClick={() => handleCategoryClick("uiux")} className="service-ui active-ser" id="uiux">UI/UX</button>
                     <button onClick={() => handleCategoryClick("web_dev")} className="service-ui" id="web_dev">Web Dev</button>
                     {/* <button onClick={() => handleCategoryClick("photography")} className="service-ui" id="photography">Photography</button> */}
                     

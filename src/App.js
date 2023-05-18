@@ -17,6 +17,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/SaifQamarPortfolio" element={<LandingPage />} />
+        <Route path="/SaifQamarPortfolio#work" element={<LandingPage />} />
         <Route path="/SaifQamarPortfolio/:cat/:id" element={<ProDetails />} />
         <Route path="/SaifQamarPortfolio/:cat" element={<Photography />} />
 
