@@ -1,19 +1,33 @@
-import React from "react";
+import React, {useRef} from "react";
+import emailjs from '@emailjs/browser';
 
 const SendMail = (props)=>{
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
     
 
     const goback = ()=>{
         document.querySelector('.mail-con').style.display = 'none';
-        document.querySelector('body').style.overflow ='visible';
-        
+        document.querySelector('body').style.overflow ='visible'; 
     }
+
+
     return(
         <div className="mail-con" style={{top: props.top}}>
             <div className="container mailbox-f">
                 <div className="mailbox">
                     <h1>Contact Me</h1>
-                    <form action="">
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className="name-mail">
                             <input type="text" className="text-inp" placeholder="Enter Name"/>
                             <input type="email" className="text-inp" placeholder="john@example.com"/>
