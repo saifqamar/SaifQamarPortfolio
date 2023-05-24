@@ -1,26 +1,40 @@
-import React from "react";
+import React, {useRef} from "react";
+import emailjs from '@emailjs/browser';
 
 const SendMail = (props)=>{
+    const form = useRef();
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+          .then((result) => {
+              console.log(result.text);
+          }, (error) => {
+              console.log(error.text);
+          });
+      };
     
 
     const goback = ()=>{
         document.querySelector('.mail-con').style.display = 'none';
-        document.querySelector('body').style.overflow ='visible';
-        
+        document.querySelector('body').style.overflow ='visible'; 
     }
+
+
     return(
         <div className="mail-con" style={{top: props.top}}>
             <div className="container mailbox-f">
                 <div className="mailbox">
                     <h1>Contact Me</h1>
-                    <form action="">
+                    <form ref={form} onSubmit={sendEmail}>
                         <div className="name-mail">
                             <input type="text" className="text-inp" placeholder="Enter Name"/>
                             <input type="email" className="text-inp" placeholder="john@example.com"/>
                         </div>
-                        <div className="name-mail">
+                        <div className="option-con">
                             {/* <input type="text" className="text-inp" placeholder="Enter Name"/> */}
-                            <select name="cars" id="cars" className="text-inp">
+                            <select name="cars" id="cars" className="options">
                                 <option value="volvo">Select the Project Type</option>
                                 <option value="volvo">UI/UX</option>
                                 <option value="saab">Front End Development</option>
@@ -29,7 +43,7 @@ const SendMail = (props)=>{
                             </select>
                             {/* <input type="email" className="text-inp" placeholder="john@example.com"/> */}
 
-                            <select name="cars" id="cars" className="text-inp">
+                            <select name="cars" id="cars" className="options">
                                 <option value="volvo">Select Time For Project</option>
                                 <option value="volvo">15 days</option>
                                 <option value="saab">1 month</option>
@@ -38,7 +52,7 @@ const SendMail = (props)=>{
                             </select>
 
 
-                            <select name="cars" id="cars" className="text-inp">
+                            <select name="cars" id="cars" className="options">
                                 <option value="volvo">Select the budget</option>
                                 <option value="volvo">$100-$500</option>
                                 <option value="saab">$500-$1000</option>

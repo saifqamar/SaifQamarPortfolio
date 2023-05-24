@@ -1,29 +1,29 @@
-import React from 'react';
+import React, {useState} from 'react';
 import '../App.css';
 import { NavLink } from 'react-router-dom';
 
 
 const Header = () => {
-  var links = document.querySelector("ul");
+  const [isSmallScreen, setIsSmallScreen] = useState(false);  
+
   const showlist =  () => {
-    console.log(links.classList)
-      links.classList.toggle('show-links');
+    isSmallScreen = isSmallScreen ? setIsSmallScreen(false): setIsSmallScreen(true);
   }
 
   return (
     <div className="bak">
-    <div className='container header'>
-      <div className="nav-header">
+    <div className='header'>
+      <div className="container nav-header">
         <img className='logo' src="images/logo.svg" alt="" />
         <button class="nav-toggle" onClick={showlist}>
             <i class="fas fa-bars"></i>
         </button>
       </div>
-      <ul className="links" id='link'>
-        <li><NavLink exact to={'/SaifQamarPortfolio'}>Home</NavLink></li>
-        <li><NavLink to={"/SaifQamarPortfolio#work"}>Work</NavLink></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#contact">Contact</a></li>        
+      <ul className={isSmallScreen ? "links show-links" : "links"}>
+      <NavLink exact to={'/SaifQamarPortfolio'} className={'link'}><li>Home</li></NavLink>
+      <NavLink exact to={'/SaifQamarPortfolio#work'} className={'link'}><li>Work</li></NavLink>
+      <a href="#about" className={'link'}><li>About</li></a>
+      <a href="#contact" className={'link'}><li>Contact</li></a>        
       </ul>
     </div>
     </div>
