@@ -20,13 +20,13 @@ const Contact = ()=>{
      };
      console.log(window.scrollY)
     return (
-        <div className="container contact-box">
+        <div className="container contact-box" id="contact">
             <div className="contact-det">
                 <h1>Let’s build you dream Project</h1>
-                <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPCMbkGCAFUa43PRfRPiZljgVpPjD0w-f7Z3MUTcLv5M_HHw/viewform?usp=sf_link">
+                {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPCMbkGCAFUa43PRfRPiZljgVpPjD0w-f7Z3MUTcLv5M_HHw/viewform?usp=sf_link"> */}
                 <button className="contact-btn" onClick={handleButtonClick}>Contact Me</button>
-                {/* {showComponent['avail'] && <SendMail top={showComponent['top']} />} */}
-                </a>
+                {showComponent['avail'] && <SendMail top={showComponent['top']} />}
+                {/* </a> */}
             </div>
         </div>
     )
