@@ -4,7 +4,7 @@ import '../App.css';
 
 const Hero = () =>{
     return (
-        <div className="hero">
+        <div className="hero" id="home">
             <div className="container main-head-flex">
                 <div className="main-head" id="">
                     <div className="back-blur"></div>
@@ -12,9 +12,9 @@ const Hero = () =>{
                     <div className="line-social">
                         <div className="line"></div>
                         <div class="social-media">
-                            <a href=""><i class="fa-brands fa-instagram"></i></a> 
-                            <a href=""><i class="fa-brands fa-facebook"></i></a>
-                            <a href=""><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/saiff.ui/"><i class="fa-brands fa-instagram"></i></a> 
+                            <a href="https://www.linkedin.com/in/saif-qamar-6036561a6/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.figma.com/@saiffqamar"><i class="fa-brands fa-figma"></i></a>
                         </div>
                     </div>
                     <div className="heading">

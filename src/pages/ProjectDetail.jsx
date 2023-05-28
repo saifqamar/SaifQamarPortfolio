@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import '../App.css';
 import { useParams } from "react-router-dom";
 // import { useParams } from 'react';
@@ -7,6 +7,9 @@ import ProjectDetailsData from "../ProjectDetailsData";
 
 
 const ProDetails = ({ match }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
+  }, []);
   let {cat, id} = useParams()
   console.log(cat)
   console.log(id)

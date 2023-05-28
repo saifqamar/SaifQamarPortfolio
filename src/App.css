@@ -78,7 +78,10 @@ body{
     background: transparent;
   }
 
-
+  .link{
+    text-decoration: none;
+    color: white;
+  }
 .hero{
   width: 100%;
   height: 100vh;
@@ -236,8 +239,13 @@ filter: blur(100px);
   text-align: center;
   vertical-align: middle;
   border-radius: 7px;
+
 }
 
+.active {
+  padding-bottom: 5px;
+  border-bottom: solid 1px white;
+}
 
 
 /* Cards */
