@@ -17,7 +17,7 @@ const ProDetails = ({ match }) => {
   console.log(images)
   
   return (
-    <div className="">
+    <div className="" style={{'color': 'black'}}>
       {/* {cardData && <Card card={cardData} />} */}
       {images.map((image)=>(
         <div className="projdetimg">

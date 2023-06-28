@@ -18,8 +18,8 @@ const Hero = () =>{
                         </div>
                     </div>
                     <div className="heading">
-                        <h1>Hello, <br /> I'm Saif</h1>
-                        <p>a UIUX Designer and Front-end Developer who is passionate about creating Digital epxeriences Through problem solving.</p>
+                        <h1>Hi, <br /> I'm Saif</h1>
+                        <p>a UIUX Designer who is passionate about creating Digital epxeriences Through problem solving.</p>
                     </div>
 
                     {/* <img className="main-img" src="images/main.jpg" alt="" /> */}
