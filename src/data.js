@@ -20,17 +20,17 @@ export default
           uiux: [
             {
               id: 1,
-              img: "./images/redoil/Frame 25.png",
+              img: "https://drive.google.com/uc?export=view&id=1ato3XyxNagwKXdm15so0NGVNIu9GgLyQ",
               title: "RedOil Hair Regrowth Website"
             },
             {
               id: 2,
-              img: "./images/Bureat/Frame 6.jpg",
+              img: "https://drive.google.com/uc?export=view&id=1KH5alppG6f5i5lDTYyX41pdJsuhrXwgF",
               title: "Case Study: Bureat"
             },
             {
               id: 3,
-              img: "./images/BookBuds/Frame 7.jpg",
+              img: "https://drive.google.com/uc?export=view&id=15XsnxqEZGWynUHWeAKOLhhH0--jkUvCF",
               title: "BookBuds App Design"
             },
             {
