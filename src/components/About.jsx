@@ -12,10 +12,10 @@ const About = () => {
                     <img src="images/mansab.jpg" alt="" />
                 </div>
                 <div className="about-details">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus aliquam voluptatibus in explicabo earum obcaecati, perferendis, hic aperiam nisi a cum, nobis est similique minus eius at voluptatem quod inventore omnis! Quasi distinctio molestias maiores mollitia dignissimos magni ullam blanditiis! Omnis neque quo dignissimos corrupti natus at consectetur consequuntur accusamus!</p>
+                    <p>I am UI/UX designer based in Pakistan. Over the years I worked with multiple companies to craft interfaces which were visually appealing and simple to use. I have been working in freelancing industry for years and dealt with many challenges in fast paced environment. I am dedicated to crafting exceptional user experiences through intuitive and visually captivating designs. With a user-centric approach, I prioritize understanding the needs and motivations of users to create impactful digital experiences that resonate with them.</p>
                     <br />
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus aliquam voluptatibus in explicabo earum obcaecati, perferendis, hic aperiam nisi a cum, nobis est similique minus eius at voluptatem quod inventore omnis! Quasi distinctio molestias maiores mollitia dignissimos magni ullam blanditiis! Omnis neque quo dignissimos corrupti natus at consectetur consequuntur accusamus!</p>
-                    <h4>Skills</h4>
+                    <p> My design process follows a structured approach, employing design thinking principles to ideate, wireframe, prototype, and iterate on designs. Throughout my career, I have had the opportunity to work with renowned companies, applying my expertise to projects spanning diverse industries. I am excited to share my work with you and demonstrate how my skills and expertise in UI/UX design can contribute to creating innovative and user-centered digital experiences.</p>
+                    {/* <h4>Skills</h4>
                     <div className="skill-container">
                         <div className="skill-box">
                             <div className="skill-icon">
@@ -44,7 +44,7 @@ const About = () => {
                             </div>
                             <h5>Digital art</h5>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>

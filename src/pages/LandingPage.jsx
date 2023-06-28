@@ -15,7 +15,7 @@ function LandingPage() {
       {/* <Header /> */}
       <Hero />
       <Services /> 
-      <WorkDet />
+      {/* <WorkDet /> */}
       <About />
       <Contact />
       {/* <FooterSec /> */}

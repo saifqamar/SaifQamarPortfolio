@@ -20,18 +20,18 @@ export default
           uiux: [
             {
               id: 1,
-              img: "https://www.creative.onl/wp-content/uploads/2020/12/ui-design-scaled-1200x800.jpg",
-              title: "Introduction to User Experience Design"
+              img: "./images/redoil/Frame 25.png",
+              title: "RedOil Hair Regrowth Website"
             },
             {
               id: 2,
-              img: "https://img.freepik.com/free-vector/gradient-ui-kit-apps_79603-1769.jpg?w=2000",
-              title: "Designing Interfaces for Mobile Devices"
+              img: "./images/Bureat/Frame 6.jpg",
+              title: "Case Study: Bureat"
             },
             {
               id: 3,
-              img: "https://dreamwalk.com.au/wp-content/uploads/2022/02/app-ui-design-with-rounded-corners.jpeg",
-              title: "Web Design Principles and Best Practices"
+              img: "./images/BookBuds/Frame 7.jpg",
+              title: "BookBuds App Design"
             },
             {
               id: 4,
