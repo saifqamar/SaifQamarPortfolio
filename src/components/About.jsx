@@ -9,7 +9,7 @@ const About = () => {
             <h1>About</h1>
             <div className="whole-about-sec">
                 <div className="my-pic">
-                    <img src="images/mansab.jpg" alt="" />
+                    <img src="https://drive.google.com/uc?export=view&id=1kHkcffTejIeEkhqH14J61Edm9JHhrKNU" alt="" />
                 </div>
                 <div className="about-details">
                     <p>I am UI/UX designer based in Pakistan. Over the years I worked with multiple companies to craft interfaces which were visually appealing and simple to use. I have been working in freelancing industry for years and dealt with many challenges in fast paced environment. I am dedicated to crafting exceptional user experiences through intuitive and visually captivating designs. With a user-centric approach, I prioritize understanding the needs and motivations of users to create impactful digital experiences that resonate with them.</p>

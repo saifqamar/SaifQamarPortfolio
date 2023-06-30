@@ -40,8 +40,10 @@ const SendMail = (props)=>{
                             <input name="sender_name" type="text" className="text-inp" placeholder="Enter Name"/>
                             <input name="sender_email" type="email" className="text-inp" placeholder="john@example.com"/>
                         </div>
-                        <div className="option-con">
-                            {/* <input type="text" className="text-inp" placeholder="Enter Name"/> */}
+                        <div className="sub-mail">
+                            <input name="sender_name" type="text" className="text-inp" placeholder="Enter Name"/>
+                        </div>
+                        {/* <div className="option-con">
                             <select name="project_type" id="cars" className="options">
                                 <option value="None">Select the Project Type</option>
                                 <option value="UI/UX">UI/UX</option>
@@ -49,7 +51,7 @@ const SendMail = (props)=>{
                                 <option value="BackEnd Development">BackEnd Development</option>
                                 <option value="FullStack Development">FullStack</option>
                             </select>
-                            {/* <input type="email" className="text-inp" placeholder="john@example.com"/> */}
+                            
 
                             <select name="time_project" id="cars" className="options">
                                 <option value="None">Select Time For Project</option>
@@ -67,7 +69,7 @@ const SendMail = (props)=>{
                                 <option value="$1000-$5000">$1000-$5000</option>
                                 <option value="$5000-$10k">$5000-$10k</option>
                             </select>
-                        </div>
+                        </div> */}
                         <textarea name="description" id="txt-area" cols="30" rows="06" placeholder="enter project details here"></textarea>
                         <input className="send-msg" type="submit" value={'Send Message'}/>
                     </form>
