@@ -574,6 +574,27 @@ filter: blur(100px);
 
 
 /* Project Details */
+
+.loader-det{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.loader-det img{
+  margin-top: 100px;
+  width: 100px;
+  height: auto;
+}
+
+.loader-det h1{
+  color: white;
+}
+
+
 .projdetimg{
   width: 100%;
   height: auto;
