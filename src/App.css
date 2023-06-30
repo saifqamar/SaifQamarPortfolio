@@ -616,6 +616,7 @@ filter: blur(100px);
   bottom: 0%;
   right: 0%;
   left: 0%;
+  z-index: 1000;
 }
 
 .mailbox-f{
@@ -633,6 +634,12 @@ filter: blur(100px);
   padding: 40px 50px 50px;
   border-radius: 5px;
   width: 50%;
+  max-width: 500px;
+}
+
+.mailbox h1{
+  font-weight: 600;
+  font-size: 30px;
 }
 
 
@@ -650,10 +657,9 @@ filter: blur(100px);
 
 }
 
-.name-mail .text-inp{
-  /* width: 350px; */
+.text-inp{
+
   background: none;
-  /* height: 50px; */
   border: 1px solid #ffffff6b;
   border-radius: 5px;
   padding-left: 12px;
@@ -665,6 +671,15 @@ filter: blur(100px);
 
 .text-inp:focus{
   outline: none;
+}
+
+.sub-mail{
+  display: flex;
+  width: 100%;
+}
+
+.sub-mail .text-inp{
+  width: 100%;
 }
 
 .option-con{
