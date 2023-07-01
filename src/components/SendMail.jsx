@@ -41,7 +41,7 @@ const SendMail = (props)=>{
                             <input name="sender_email" type="email" className="text-inp" placeholder="john@example.com"/>
                         </div>
                         <div className="sub-mail">
-                            <input name="sender_name" type="text" className="text-inp" placeholder="Enter Name"/>
+                            <input name="sender_subject" type="text" className="text-inp" placeholder="Enter Subject of email"/>
                         </div>
                         {/* <div className="option-con">
                             <select name="project_type" id="cars" className="options">
