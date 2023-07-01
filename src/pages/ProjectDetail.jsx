@@ -3,7 +3,7 @@ import '../App.css';
 import { useParams } from "react-router-dom";
 // import { useParams } from 'react';
 import ProjectDetailsData from "../ProjectDetailsData";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+
 
 
 
@@ -14,10 +14,10 @@ const ProDetails = ({ match }) => {
   const images = ProjectDetailsData[cat][id - 1]['images'];
   
   useEffect(()=>{
-    if (imgsLoaded == false){
+    if (imgsLoaded === false){
       window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
     }
-  }, []);
+  });
 
   useEffect(() => {
     const loadImage = image => {
