@@ -37,20 +37,20 @@ export default
               id: 1,
               title: "RedOil Hair Regrowth Website",
               images: [
-                "https://drive.google.com/uc?export=view&id=1tFxaB-CyJXSMaHDUrgKcFLWrgYbOiMn4",
-                "https://drive.google.com/uc?export=view&id=1NvOzT5Xi3YnIrgne3AUDut0u56ZuD6na",
+                "https://drive.google.com/uc?export=view&id=1vYYn6qbI7Nl0yEhs4DCsoyCGYYw43bW7",
+                "https://drive.google.com/uc?export=view&id=1sq8kjRTkv7CeJhNuntZBA4ja5g9aC4VE",
                 
-                "https://drive.google.com/uc?export=view&id=1cVYqHySXO4b57sTbUpq6KwYvXYRUcV9q",
-                "https://drive.google.com/uc?export=view&id=1VjlSSctOz6pe72ezPiQ-IjlytR9_H3yq",
-                "https://drive.google.com/uc?export=view&id=11kFuIyqD2_B3RniQ4aJgUPLnQmHDPPKk",
+                "https://drive.google.com/uc?export=view&id=1Wm2b2K8y_7nNJ2F09jn1HOQSYtz9zDTH",
+                "https://drive.google.com/uc?export=view&id=1pkH51J39EGPo60SggKk4Nt9dHQo73aKj",
+                "https://drive.google.com/uc?export=view&id=1xLx6jbMi4h5LFkzPFG3R12rQV1U4eiw0",
 
-                "https://drive.google.com/uc?export=view&id=14mEAKnxYG13oBXFYB-2SExLhejtFLONN",
-                "https://drive.google.com/uc?export=view&id=1t0dybAyAfT_gZ8hPHl95FYwqDKscUJNO",
-                "https://drive.google.com/uc?export=view&id=1lp-LeNi2hkgSSEYou3s5EzzudZ-ziRQ_",
+                "https://drive.google.com/uc?export=view&id=1XEtvCmYXeL5Okm3rZnAoEyBUEUW3Ojvi",
+                "https://drive.google.com/uc?export=view&id=1MB62qCH-BhO_n8dsMEDzaF4yx9UP9lBQ",
+                "https://drive.google.com/uc?export=view&id=1YyuoEnCsBUAOZgd8odRtOMgEO04t8QxZ",
 
-                "https://drive.google.com/uc?export=view&id=1mEXfTeZDyNGB_o5irkJUkathmzXtl1OZ",
-                "https://drive.google.com/uc?export=view&id=1ISv-9xDrmZVBze5gK7Rh4tKfxupXDK3R",
-                "https://drive.google.com/uc?export=view&id=1_z7LjPfsS7YAbfU111fYudt66Sk7XnkW",
+                "https://drive.google.com/uc?export=view&id=1TLg_dUaoLNs5039uKAcl7ZV69WwY7IBZ",
+                "https://drive.google.com/uc?export=view&id=1aWakw9aFi1ujUi_m-_ti1tExROSjH5V3",
+                "https://drive.google.com/uc?export=view&id=1g8SyVQ_CSaeCS4Nj93uwoRFKUTJTSj3z",
                 
               ] 
             },
@@ -58,9 +58,9 @@ export default
               id: 2,
               title: "Bureat Mobile app Design",
               images: [
-                "https://drive.google.com/uc?export=view&id=1ao9OeVVR2h6iRWY0XOjTlmtH8AqfOMHA",
-                "https://drive.google.com/uc?export=view&id=1YuIo0deav2cz4LiGwBYVbpu_qNqhufzn",
-                "https://drive.google.com/uc?export=view&id=1X_gkQNvw809TBLrJNP8_mcJwm4e0zoG_",
+                "https://drive.google.com/uc?export=view&id=1WJnKFqSZ-4m0KBUoDnktY5-KqcZfpgtc",
+                "https://drive.google.com/uc?export=view&id=1K6zqhABf9rnFjI8cBD3-sZGI-DdtQO6d",
+                "https://drive.google.com/uc?export=view&id=1KDFyhd6F8IyOvDLlGVlcd7VbYjYSJTUN",
                 
               ] 
             },
@@ -68,10 +68,10 @@ export default
               id: 3,
               title: "BookBuds App Case study",
               images: [
-                "https://drive.google.com/uc?export=view&id=1zZD5AUpCT9s3zW56_DWl61RltF7oxzDY",
-                "https://drive.google.com/uc?export=view&id=1cKa8F1F90p95k3pf-fesHlwouOTy2O57",
-                "https://drive.google.com/uc?export=view&id=1YMSP_aazx8XjaSzu_HrN5RwLXlMF0b6L",
-                "https://drive.google.com/uc?export=view&id=1VViOjTzmnbVzym5RP1BcFOhWUsEdh3FT",
+                "https://drive.google.com/uc?export=view&id=1sXMKS7fb7v7ohkebok557MoY91Bwtr6s",
+                "https://drive.google.com/uc?export=view&id=1lagI8B_6doMcTgXj_lcLG4m1VKUqN7La",
+                "https://drive.google.com/uc?export=view&id=1cyh3z-E-lX6utk9KR7REMQhG6BDP9loJ",
+                "https://drive.google.com/uc?export=view&id=1rfn-de7h7waaIsdEumzn89tRB3q9YNOF",
                 
               ]
             }
