@@ -7,10 +7,20 @@ import WorkDet from './components/WorkDetails';
 import ProDetails from './pages/ProjectDetail';
 import FooterSec from './components/FooterSec';
 import Photography from './pages/Photography';
+import ScrollReveal from 'scrollreveal';
+
 
 
 function App() {
   
+  ScrollReveal().reveal('.header', {easing: 'ease-in-out' });
+  ScrollReveal().reveal('.hero', { delay: 200, easing: 'ease-in-out', reset: true });
+  ScrollReveal().reveal('.heading', { easing: 'ease-in-out', reset: true });
+  ScrollReveal().reveal('.services', {easing: 'ease-in-out', reset: true  });
+  ScrollReveal().reveal('.cards', {easing: 'ease-in-out', reset: true  });
+  ScrollReveal().reveal('.about-sec', {easing: 'ease-in-out', reset: true  });
+  ScrollReveal().reveal('.contact-box', {easing: 'ease-in-out', reset: true  });
+  ScrollReveal().reveal('.projdetimg', {easing: 'ease-in-out', reset: true  });
 
   return (
     <BrowserRouter className="App">
