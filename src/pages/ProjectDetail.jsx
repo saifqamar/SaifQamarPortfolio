@@ -49,7 +49,7 @@ const ProDetails = ({ match }) => {
 
         {imgsLoaded ? (
           images.map(image => (
-            <div className="projdetimg">
+            <div className="projdetimg" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom">
               <img key={image.id} src={image} alt="Human" />
             </div>
           ))

@@ -6,8 +6,8 @@ import '../App.css';
 const About = () => {
     return (
         <div className="about-sec container"  id="about">
-            <h1>About</h1>
-            <div className="whole-about-sec">
+            <h1 data-aos='fade-up'>About</h1>
+            <div className="whole-about-sec" data-aos='fade-up'>
                 <div className="my-pic">
                     <img src="https://drive.google.com/uc?export=view&id=1kHkcffTejIeEkhqH14J61Edm9JHhrKNU" alt="" />
                 </div>

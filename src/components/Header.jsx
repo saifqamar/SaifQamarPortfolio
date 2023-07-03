@@ -12,7 +12,7 @@ const Header = () => {
   }
 
   return (
-    <div className="bak">
+    <div className="bak"  data-aos="fade-down" data-aos-duration='1000'>
     <div className='header'>
       <div className="container nav-header">
         <div className="logo" style={{display:'flex', width:'50%', padding:'20px', alignItems:'baseline', columnGap:'5px'}}>
