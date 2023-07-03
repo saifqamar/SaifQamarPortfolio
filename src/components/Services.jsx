@@ -32,7 +32,7 @@ const Services = ()=> {
     return(
         <div className="ser-back">
             <div className="container services" id="work">
-                <h1>Work</h1>
+                <h1 data-aos='fade-up'>Work</h1>
                 {/* <ul className="ser-btn"> */}
                     {/* <button onClick={() => handleCategoryClick("uiux")} className="service-ui active-ser" id="uiux">UI/UX</button> */}
                     {/* <button onClick={() => handleCategoryClick("web_dev")} className="service-ui" id="web_dev">Web Dev</button> */}

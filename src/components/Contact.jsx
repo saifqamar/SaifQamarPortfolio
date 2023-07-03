@@ -20,7 +20,7 @@ const Contact = ()=>{
      };
      console.log(window.scrollY)
     return (
-        <div className="container contact-box" id="contact">
+        <div className="container contact-box" id="contact" data-aos='fade-up'>
             <div className="contact-det">
                 <h1>Let’s build you dream Project</h1>
                 {/* <a href="https://docs.google.com/forms/d/e/1FAIpQLSdPCMbkGCAFUa43PRfRPiZljgVpPjD0w-f7Z3MUTcLv5M_HHw/viewform?usp=sf_link"> */}
