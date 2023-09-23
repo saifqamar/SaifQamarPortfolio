@@ -21,6 +21,8 @@ const SendMail = (props)=>{
               console.log(error.text);
           });
       };
+
+      console.log('inner height ===> ', window.innerHeight)
     
 
     const goback = ()=>{
@@ -31,7 +33,7 @@ const SendMail = (props)=>{
 
 
     return(
-        <div className="mail-con" style={{top: props.top}}>
+        <div className="mail-con">
             <div className="container mailbox-f">
                 <div className="mailbox">
                     <h1>Contact Me</h1>
