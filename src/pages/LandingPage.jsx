@@ -12,13 +12,12 @@ import FooterSec from '../components/FooterSec';
 function LandingPage() {
   return (
     <>
-      {/* <Header /> */}
+
       <Hero />
       <Services /> 
-      {/* <WorkDet /> */}
       <About />
       <Contact />
-      {/* <FooterSec /> */}
+    
     </>
   );
 }

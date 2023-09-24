@@ -610,7 +610,7 @@ filter: blur(100px);
 /* Send Mail */
 
 .mail-con{
-  position: fixed;
+  position: absolute;
   height: 100vh;
   background-color: #181818;
   bottom: 0%;
