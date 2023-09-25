@@ -7,7 +7,7 @@ import WorkDet from './components/WorkDetails';
 import ProDetails from './pages/ProjectDetail';
 import FooterSec from './components/FooterSec';
 import Photography from './pages/Photography';
-// import ScrollReveal from 'scrollreveal';
+import SendMail from './components/SendMail';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
@@ -29,6 +29,7 @@ function App() {
         <Route path="/SaifQamarPortfolio#work" element={<LandingPage />} />
         <Route path="/SaifQamarPortfolio/:cat/:id" element={<ProDetails />} />
         <Route path="/SaifQamarPortfolio/:cat" element={<Photography />} />
+        <Route path="/SaifQamarPortfolio/contact" element={<SendMail />} />
 
       </Routes>
       <FooterSec />
