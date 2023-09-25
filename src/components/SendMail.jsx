@@ -16,22 +16,24 @@ const SendMail = (props)=>{
               console.log(result.text);
               form.current.reset()
               alert('Message sent');
-              goback()
+            //   goback()
           }, (error) => {
               console.log(error.text);
           });
       };
+
+      console.log('inner height ===> ', window.innerHeight)
     
 
-    const goback = ()=>{
-        document.querySelector('.mail-con').style.display = 'none';
-        document.querySelector('body').style.overflow ='visible'; 
-        console.log(process.env.EMAIL_SERVICE_KEY)
-    }
+    // const goback = ()=>{
+    //     document.querySelector('.mail-con').style.display = 'none';
+    //     document.querySelector('body').style.overflow ='visible'; 
+    //     console.log(process.env.EMAIL_SERVICE_KEY)
+    // }
 
 
     return(
-        <div className="mail-con" style={{top: props.top}}>
+        <div className="mail-con">
             <div className="container mailbox-f">
                 <div className="mailbox">
                     <h1>Contact Me</h1>
@@ -73,7 +75,7 @@ const SendMail = (props)=>{
                         <textarea name="description" id="txt-area" cols="30" rows="06" placeholder="enter project details here"></textarea>
                         <input className="send-msg" type="submit" value={'Send Message'}/>
                     </form>
-                <button className="goback-btn" onClick={goback}>Go back</button>
+                {/* <button className="goback-btn" onClick={goback}>Go back</button> */}
                 </div>
             </div>
         </div>
