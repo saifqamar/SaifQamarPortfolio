@@ -321,6 +321,7 @@ filter: blur(100px);
 
 
 
+
 .show-more-btn-con{
   width: 100%;
   margin-top: 40px;
@@ -331,7 +332,11 @@ filter: blur(100px);
 }
 
 .show-more-btn{
-  display: none;
+  display: flex;
+  align-items: center;
+  background: #555686!important;
+  column-gap: 20px;
+  padding: 12px 18px!important;
 }
 
 /* Phot cards */
@@ -394,6 +399,10 @@ filter: blur(100px);
   font-weight: 500;
   font-size: 48px;
 
+}
+
+.about-btn{
+  justify-content: flex-start;
 }
 
 .whole-about-sec{

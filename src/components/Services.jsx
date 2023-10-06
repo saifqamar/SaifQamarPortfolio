@@ -1,4 +1,4 @@
-import React,{useState} from "react";  
+import React, { useState } from "react";
 import '../App.css';
 // import PhotoCards from "./PhotoCards";
 import Cards from "./Cards";
@@ -7,45 +7,47 @@ import data from "../data";
 
 
 
-const Services = ()=> {
+const Services = () => {
     const [activeCategory, setActiveCategory] = useState('uiux');
-  
+
     const handleCategoryClick = (category) => {
-    setActiveCategory(category);
+        setActiveCategory(category);
     };
 
     const btns = document.querySelectorAll(".service-ui");
-    btns.forEach((btn) =>{
-        if(btn.id !== activeCategory){
+    btns.forEach((btn) => {
+        if (btn.id !== activeCategory) {
             btn.classList.remove('active-ser');
-        }else{
+        } else {
             btn.classList.add('active-ser');
         }
-        btn.addEventListener('click', function(){
+        btn.addEventListener('click', function () {
             console.log(btn.id)
-            if(btn.id !== activeCategory){
+            if (btn.id !== activeCategory) {
                 btn.classList.remove('active-ser');
             }
         })
     })
-    
-    return(
+
+    return (
         <div className="ser-back">
             <div className="container services" id="work">
                 <h1 data-aos='fade-up'>Work</h1>
-                {/* <ul className="ser-btn">
+                <ul className="ser-btn">
                     <button onClick={() => handleCategoryClick("uiux")} className="service-ui active-ser" id="uiux">UI/UX</button>
                     <button onClick={() => handleCategoryClick("web_dev")} className="service-ui" id="web_dev">Web Dev</button>
                     <button onClick={() => handleCategoryClick("photography")} className="service-ui" id="photography">Photography</button>
                     
-                </ul> */}
+                </ul>
             </div>
             <div className="container">
-                <Cards activeData={data[activeCategory].slice(0,3)} cat={activeCategory}/>
-                {/* <div className="show-more-btn-con">
-                    <Link to={`/SaifQamarPortfolio/${activeCategory}`} style={{textDecoration:'none'}}><button className="show-more-btn contact-btn" style={{display: data[activeCategory].length > 3 ? 'block': 'none'}}>Show More</button></Link>
-                </div> */}
-                
+                <Cards activeData={data[activeCategory].slice(0, 3)} cat={activeCategory} />
+                <div className="show-more-btn-con">
+                    <Link to={`/SaifQamarPortfolio/projects`} style={{ textDecoration: 'none' }}><button className="show-more-btn contact-btn" style={{ display: data[activeCategory].length > 3 ? 'flex' : 'none' }}><span>Show More</span> <span class="material-symbols-outlined">
+                        arrow_right_alt
+                    </span></button></Link>
+                </div>
+
             </div>
         </div>
 
