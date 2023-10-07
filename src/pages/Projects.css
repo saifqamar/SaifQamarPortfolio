@@ -1,0 +1,22 @@
+.project{
+    margin-top: 75px;
+}
+
+.project .services {
+    text-align: left;
+}
+
+
+.project .ser-btn{
+    justify-content: flex-start;
+}
+
+.project .cards{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.project .cards a{
+    width: 49%;
+}
