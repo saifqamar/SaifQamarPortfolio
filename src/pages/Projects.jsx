@@ -32,6 +32,8 @@ const Projects = () => {
 
     return (
         <div className="ser-back project">
+            <div className="back-blur"></div>
+            <div className="back-blur-red"></div>
             <div className="container services" id="work">
                 <h1 data-aos='fade-up'>Projects</h1>
                 <ul className="ser-btn">
