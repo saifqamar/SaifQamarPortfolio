@@ -55,12 +55,16 @@ export default
               ] 
             },
             {
+              // https://drive.google.com/file/d/10xHoQLyDG3EoBTNYcvknCIdcpNK6fZum/view?usp=drive_link
               id: 2,
-              title: "Bureat Mobile app Design",
+              title: "bureat-case-study",
               images: [
-                "https://drive.google.com/uc?export=view&id=1WJnKFqSZ-4m0KBUoDnktY5-KqcZfpgtc",
-                "https://drive.google.com/uc?export=view&id=1K6zqhABf9rnFjI8cBD3-sZGI-DdtQO6d",
-                "https://drive.google.com/uc?export=view&id=1KDFyhd6F8IyOvDLlGVlcd7VbYjYSJTUN",
+                "https://drive.google.com/uc?export=view&id=1t4kuSn3OHlztbPSmx2-Vs5FUYvp_yTAr",
+                "https://drive.google.com/uc?export=view&id=1PHlCbgitdbft4GT7XxZCgcUqZliX7Emh",
+                "https://drive.google.com/uc?export=view&id=10xHoQLyDG3EoBTNYcvknCIdcpNK6fZum",
+                "https://drive.google.com/uc?export=view&id=1JVxA2urv80ICzb2Zaa8U_KoNQBwSGvus",
+                "https://drive.google.com/uc?export=view&id=1itFqqjLP94-cGXY4QbvfAi1vFLXHK6Ui",
+                "https://drive.google.com/uc?export=view&id=1js56Zd6FU5rM3vxkBA1Yym2bS6X1yqQo",
                 
               ] 
             },
@@ -68,10 +72,13 @@ export default
               id: 3,
               title: "BookBuds App Case study",
               images: [
-                "https://drive.google.com/uc?export=view&id=1sXMKS7fb7v7ohkebok557MoY91Bwtr6s",
-                "https://drive.google.com/uc?export=view&id=1lagI8B_6doMcTgXj_lcLG4m1VKUqN7La",
-                "https://drive.google.com/uc?export=view&id=1cyh3z-E-lX6utk9KR7REMQhG6BDP9loJ",
-                "https://drive.google.com/uc?export=view&id=1rfn-de7h7waaIsdEumzn89tRB3q9YNOF",
+                "https://drive.google.com/uc?export=view&id=1bKXAkLde_HQmGpUPnRCl-psQadLAFVQC",
+                "https://drive.google.com/uc?export=view&id=1YouzPR3INl5Mq35xSbdVL0VCxLjiW-4U",
+                "https://drive.google.com/uc?export=view&id=10LU0D0Qut8qheA6Pf6HczIv6IUwO8gXs",
+                "https://drive.google.com/uc?export=view&id=15CqFT1v4wlnSMYRelq4JFA_ZBM3ynFGa",
+                "https://drive.google.com/uc?export=view&id=1geY1VvgM2HJbRYZO9fgHSjfK1dPVXjHM",
+                "https://drive.google.com/uc?export=view&id=1oCqT8fjYkqxO6bQk507VRwLFuaBU1d1K",
+                "https://drive.google.com/uc?export=view&id=10qDgs7FcM9tDqq_IcjMXih6TOBoTFk_P",
                 
               ]
             }
