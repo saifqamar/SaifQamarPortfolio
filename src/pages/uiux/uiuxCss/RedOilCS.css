@@ -1,0 +1,272 @@
+.whole-page{
+    background: #fff;
+    overflow: hidden;
+}
+
+
+.cs-whole{
+    position: relative;
+}
+
+.blob-1{
+    position: absolute;
+    right:-22%;
+    top: -2%;
+    
+}
+
+.blob-2{
+    position: absolute;
+    left: -22%;
+    bottom: -0%;
+    z-index: 0;
+
+}
+
+.cs-hero{
+    padding-top: 65px;
+    /* width: 100%; */
+    text-align: center;
+    
+}
+
+.cs-hero h1{
+    font-size: 56px;
+    color: #EB0909;
+}
+
+
+
+.cs-heading{
+    padding: 40px 85px;
+    background: #F2F2F2;
+    border: none;
+    border-radius: 100px ;
+    margin-top: 28px;
+}
+
+.cs-heading p{
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.home-img{
+    width: 100%;
+    margin-top: 54px;
+}
+
+.home-img img{
+    width: 100%;
+    box-shadow: 0px 0px 51.0755px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 16.762px; 
+}
+
+
+/* whole-details-sec */
+
+.whole-details-sec{
+    position: relative;
+    margin-top: 75px;
+    z-index: 2;
+}
+
+.details-sec-1 p{
+    font-size: 16px;
+}
+
+.cs-name{
+    font-size: 48px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+} 
+
+.details-sec-2{
+    margin-top: 25px;
+    display: flex;
+    column-gap: 60px;
+}
+
+.role{
+    width: 30%;
+}
+
+.tools{
+    width: 30%;
+}
+
+.client{
+    width: 30%;
+}
+
+.role-heading{
+    color: #999999;
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+/* ---- problem statement ----- */
+
+.problem-statement{
+    margin-top: 60px;
+    line-height: 28px;
+}
+
+.problem-statement span{
+    font-weight: 700;
+}
+
+.problem-statement h1{
+    margin-bottom: 25px;
+}
+
+.problem-statement p{
+    color: #333333;
+}
+
+
+/* ----Goals----- */
+.goals{
+    margin-top: 60px;
+    line-height: 28px;
+}
+
+.goals h1{
+    margin-bottom: 25px;
+}
+
+.goals span{
+    font-weight: 600;
+}
+
+
+/* ---- Product Users ---- */
+
+.product-users{
+    position: relative;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    background: #F8F8F8;
+    text-align: center;
+    padding: 184px 0px;
+}
+
+.product-users h1{
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.product-users p{
+  
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.user{
+    position: absolute;
+}
+
+.user-1{
+    left: -50px;
+    top:25%;
+
+}
+
+.user-2{
+    bottom: -40%;
+}
+
+.user-3{
+    top: -15%;
+    right: 5%;
+}
+
+
+/* ----- visual Design ----*/
+
+.visual-design h1{
+    margin-bottom: 25px;
+}
+
+.visual-design p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.style-guide{
+    width: 100%;
+}
+
+/* ---- high fidelity Design ----- */
+
+.high-fidelity{
+    margin-top: 85px;
+    
+}
+
+.high-fidelity h1{
+    margin-bottom: 53px;
+}
+
+.high-fidelity .whole-sec{
+    display: flex;
+    column-gap: 22px;
+}
+
+.whole-sec .left-sec{
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+.left-sec img{
+    width: 100%;
+    border-radius: 10px;
+    
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+.whole-sec .right-sec{
+    display: flex;
+    flex-direction: column;
+    row-gap: 22px;
+}
+
+.right-sec img{
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+}
+
+
+/* feedback and chllanges */
+
+.feedback{
+    margin-top: 139px;
+}
+
+.feedback h1{
+    margin-bottom: 25px;
+}
+
+.feedback p{
+    line-height: 28px;
+}
+
+.challanges{
+    margin-top: 38px;
+    line-height: 28px;
+}
+
+.challanges h1{
+    margin-bottom: 25px;
+}
+
+.thankyou{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.thankyou img{
+    width: 100%;
+}

@@ -205,12 +205,14 @@ filter: blur(100px);
 }
 
 .ser-btn{
+  position: relative;
   margin: 40px 0px;
   display: flex;
   list-style: none;
   justify-content: center;
   column-gap: 50px;
   align-items: center;
+  z-index: 1;
 }
 
 .service-ui{
@@ -304,8 +306,7 @@ filter: blur(100px);
   object-fit: cover;
 }
 
-.crd-title{
-  /* width: 100%; */
+/* .crd-title{
   text-align: center;
   padding: 0px 15px;
 }
@@ -317,7 +318,8 @@ filter: blur(100px);
   font-size: 16px;
   margin-bottom: 25px;
 
-}
+} */
+
 
 
 
@@ -331,7 +333,11 @@ filter: blur(100px);
 }
 
 .show-more-btn{
-  display: none;
+  display: flex;
+  align-items: center;
+  background: #555686!important;
+  column-gap: 20px;
+  padding: 12px 18px!important;
 }
 
 /* Phot cards */
@@ -394,6 +400,10 @@ filter: blur(100px);
   font-weight: 500;
   font-size: 48px;
 
+}
+
+.about-btn{
+  justify-content: flex-start;
 }
 
 .whole-about-sec{

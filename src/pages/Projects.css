@@ -1,0 +1,43 @@
+.project{
+    margin-top: 75px;
+}
+
+.project .back-blur{
+    top: 8%;
+}
+
+.project .back-blur-red{
+    top: 18%;
+}
+
+.project .services {
+    text-align: left;
+}
+
+
+.project .ser-btn{
+    justify-content: flex-start;
+}
+
+.project .cards{
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    row-gap: 40px;
+    column-gap: 40px;
+}
+
+.project .cards a{
+    width: 46%;
+}
+
+.project .crd-image{
+    height: 450px;
+
+}
+
+.project .card-image img{
+    object-fit: cover;
+
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import '../App.css';
+import { Link } from "react-router-dom";
 
 
 
@@ -14,37 +15,14 @@ const About = () => {
                 <div className="about-details">
                     <p>I am UI/UX designer based in Pakistan. Over the years I worked with multiple companies to craft interfaces which were visually appealing and simple to use. I have been working in freelancing industry for years and dealt with many challenges in fast paced environment. I am dedicated to crafting exceptional user experiences through intuitive and visually captivating designs. With a user-centric approach, I prioritize understanding the needs and motivations of users to create impactful digital experiences that resonate with them.</p>
                     <br />
-                    <p> My design process follows a structured approach, employing design thinking principles to ideate, wireframe, prototype, and iterate on designs. Throughout my career, I have had the opportunity to work with renowned companies, applying my expertise to projects spanning diverse industries. I am excited to share my work with you and demonstrate how my skills and expertise in UI/UX design can contribute to creating innovative and user-centered digital experiences.</p>
-                    {/* <h4>Skills</h4>
-                    <div className="skill-container">
-                        <div className="skill-box">
-                            <div className="skill-icon">
-                                <img src="images/logo.svg" alt="" />
-                            </div>
-                            <h5>UI/UX</h5>
-                        </div>
+                    <p> My design process follows a structured approach, employing design thinking principles to ideate, wireframe, prototype, and iterate on designs.</p>
 
-                        <div className="skill-box">
-                            <div className="skill-icon">
-                                <img src="images/logo.svg" alt="" />
-                            </div>
-                            <h5>Web Dev</h5>
-                        </div>
-
-                        <div className="skill-box">
-                            <div className="skill-icon">
-                                <img src="images/logo.svg" alt="" />
-                            </div>
-                            <h5>Photography</h5>
-                        </div>
-
-                        <div className="skill-box">
-                            <div className="skill-icon">
-                                <img src="images/logo.svg" alt="" />
-                            </div>
-                            <h5>Digital art</h5>
-                        </div>
-                    </div> */}
+                    <div className="show-more-btn-con about-btn">
+                        <Link to={`/SaifQamarPortfolio/about`} style={{ textDecoration: 'none' }}><button className="show-more-btn contact-btn" style={{ display:  'flex' }}><span>Show More</span> <span class="material-symbols-outlined">
+                            arrow_right_alt
+                        </span></button></Link>
+                    </div>
+                    
                 </div>
             </div>
         </div>

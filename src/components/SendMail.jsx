@@ -7,7 +7,7 @@ import emailjs from '@emailjs/browser';
 
 const SendMail = (props)=>{
     const form = useRef();
-
+    window.scrollTo(0, 0);
     const sendEmail = (e) => {
         e.preventDefault();
     
