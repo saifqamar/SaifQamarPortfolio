@@ -1,14 +1,14 @@
 .bureat{
     /* position: relative; */
-    z-index: 100;
+    z-index: 1!important;
 }
 
 .bureat .back-blur{
-    position: absolute;
-    z-index: 1000!important;
+    z-index: 0!important;
 }
 
 .bureat h1{
+    position: relative;
     color: white;
     margin-top: 100px;
     text-transform: uppercase;
@@ -17,6 +17,7 @@
 }
 
 .bureat p{
+    position: relative;
     color: white;
     margin-bottom: 20px;
     z-index: 100;

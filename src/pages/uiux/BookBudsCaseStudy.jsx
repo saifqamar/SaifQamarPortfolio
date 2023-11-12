@@ -70,7 +70,7 @@ export default BookBudsCaseStudy =>{
                                 <img src={images[3]} alt="bureat pic 1" />
                                 <img src={images[4]} alt="bureat pic 2" />
                             </div>
-                            <div className="downside">
+                            <div className="downside" data-aos='fade-up'>
                                 <img src={images[5]} alt="bureat pic 3" />
                             </div>
                         </div>
@@ -80,7 +80,7 @@ export default BookBudsCaseStudy =>{
                                 {/* <img src={images[3]} alt="bureat pic 1" />
                                 <img src={images[4]} alt="bureat pic 2" /> */}
                             </div>
-                            <div className="downside">
+                            <div className="downside" data-aos='fade-up'>
                                 <img src={images[6]} alt="bureat pic 3" />
                             </div>
                         </div>
