@@ -5,10 +5,8 @@ export default
               id: 1,
               title: "Building Web Applications with React",
               images: [
-                "https://www.freecodecamp.org/news/content/images/2022/02/arrows-2889040_1920.jpg",
-                "https://i.pinimg.com/736x/cf/d0/0f/cfd00ff613363792d38fb666df03331e.jpg",
-                "https://cdn.dribbble.com/userupload/2837889/file/original-324b267be5f0f3fc0b7f1242872d6e3b.jpg?resize=400x0",
-                "https://www.creative.onl/wp-content/uploads/2020/12/ui-design-scaled-1200x800.jpg"
+                "https://drive.google.com/uc?export=view&id=1Bg7yw6hvfKgmb1crH7l944vuEJ58ZSF6",
+
               ] 
             },
             {

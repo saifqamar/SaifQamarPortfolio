@@ -14,9 +14,9 @@ const ProDetails = ({ match }) => {
   const images = ProjectDetailsData[cat][id - 1]['images'];
   
   useEffect(()=>{
-    if (imgsLoaded === false){
+    // if (imgsLoaded === false){
       window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
-    }
+    // }
   });
 
   useEffect(() => {

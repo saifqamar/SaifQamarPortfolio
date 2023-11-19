@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import data from "../data";
 import Cards from "../components/Cards";
 import { Link } from "react-router-dom";
@@ -10,6 +10,10 @@ import './Projects.css'
 
 const Projects = () => {
     const [activeCategory, setActiveCategory] = useState('uiux');
+
+    useEffect(() =>{
+        window.scrollTo(0, 0);
+    }, []);
 
     const handleCategoryClick = (category) => {
         setActiveCategory(category);
@@ -39,7 +43,7 @@ const Projects = () => {
                 <ul className="ser-btn">
                     <button onClick={() => handleCategoryClick("uiux")} className="service-ui active-ser" id="uiux">UI/UX</button>
                     <button onClick={() => handleCategoryClick("web_dev")} className="service-ui" id="web_dev">Web Dev</button>
-                    <button onClick={() => handleCategoryClick("photography")} className="service-ui" id="photography">Photography</button>
+                    {/* <button onClick={() => handleCategoryClick("photography")} className="service-ui" id="photography">Photography</button> */}
                     
                 </ul>
             </div>
