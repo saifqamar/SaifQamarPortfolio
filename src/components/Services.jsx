@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import '../App.css';
 // import PhotoCards from "./PhotoCards";
 import Cards from "./Cards";
@@ -10,6 +10,8 @@ import data from "../data";
 const Services = () => {
     const [activeCategory, setActiveCategory] = useState('uiux');
 
+    useEffect(() => {
+    }, [])
     const handleCategoryClick = (category) => {
         setActiveCategory(category);
     };

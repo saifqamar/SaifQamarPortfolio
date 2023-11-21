@@ -50,7 +50,7 @@ export default About =>{
                     {/* https://drive.google.com/file/d/1udbOTkMv2xkhAPgNFpKHy1cF7vUzDZij/view?usp=drive_link */}
                     <div className="about-image">
 
-                        <img src ={image} alt="" />
+                        <img src ={image} alt="saif qamar photo" />
                     </div>
                 </div>
             ) : (
