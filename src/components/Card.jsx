@@ -45,6 +45,9 @@ const Card = (props)=>{
                         <div className="crd-image">
                             <img src={props.item.img} alt="design app" />
                         </div>            
+                        {/* <div className="crd-title">
+                            <h4>{props.item.title}</h4>
+                        </div> */}
                     </>
                 ) : (
                     <div className="card-loader">
@@ -52,9 +55,6 @@ const Card = (props)=>{
                         {/* <img src="https://i.pinimg.com/originals/49/23/29/492329d446c422b0483677d0318ab4fa.gif" alt="" /> */}
                     </div>
                 )}
-                {/* <div className="crd-title">
-                    <h4>{props.item.title}</h4>
-                </div> */}
             </div>
         </Link>
     )
