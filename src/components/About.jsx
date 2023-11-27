@@ -17,10 +17,21 @@ const About = () => {
                     <br />
                     <p> My design process follows a structured approach, employing design thinking principles to ideate, wireframe, prototype, and iterate on designs.</p>
 
-                    <div className="show-more-btn-con about-btn">
+                    {/* <div className="show-more-btn-con about-btn">
                         <Link to={`/SaifQamarPortfolio/about`} style={{ textDecoration: 'none' }}><button className="show-more-btn contact-btn" style={{ display:  'flex' }}><span>Show More</span> <span class="material-symbols-outlined">
                             arrow_right_alt
                         </span></button></Link>
+                    </div> */}
+
+                    <div className="show-more-btn-con about-btn">
+                        <Link to={`/SaifQamarPortfolio/about`} style={{ textDecoration: 'none' }}>
+                            <button className="show-more-btn contact-btn about-btn-black" style={{ display:  'flex', background:'black' }}>
+                                <span>Show More</span> 
+                                <span class="material-symbols-outlined">
+                                    arrow_right_alt
+                                </span>
+                            </button>
+                        </Link>
                     </div>
                     
                 </div>

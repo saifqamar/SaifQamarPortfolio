@@ -1,5 +1,6 @@
 import React from "react";
 import ProjectDetailsData from "../../ProjectDetailsData";
+import '../../App.css';
 import { useState, useParams, useEffect } from "react";
 import './css/FantomStarterLP.css';
 import { Link } from "react-router-dom";
@@ -8,7 +9,7 @@ import { Link } from "react-router-dom";
 
 
 
-export default FantomStarterLP =>{
+export default Swms =>{
     const [imgsLoaded, setImgsLoaded] = useState(true)
 //   let {cat, id} = useParams('uiux', 2)
 //   console.log(cat);
@@ -46,10 +47,10 @@ export default FantomStarterLP =>{
     }, []);
   
     return (
-        <div className="container fantom-starter">
+        <div className="container bookbuds fantom-starter">
             {imgsLoaded ? (
                 <>
-                    <h1>FS Exchange Landing page</h1>
+                    <h1>Smart Waste Mangement System</h1>
                     <img className="main-pic" src={images[0]} alt="fs exchange hero section" />
                     <p>Bureat is an innovative fast food company that has disrupted the traditional fast food landscape with its fresh and flavorful offerings. With a commitment to quality, convenience, and customer satisfaction, Bureat has quickly gained popularity among food enthusiasts seeking a new and exciting fast food experience. The company takes pride in sourcing high-quality ingredients, preparing delicious meals, and delivering them with exceptional service.</p>
                     <p>My role was to design Logo and UI/UX for the app. I developed wireframes and interactive prototypes using industry-standard tool like Figma. This allowed me to establish the app's layout, navigation, and flow of screens.</p>

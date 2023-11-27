@@ -1,13 +1,13 @@
-.bookbuds{
+.fantom-starter{
     /* position: relative; */
     z-index: 100;
 }
 
-.bookbuds .back-blur{
+.fantom-starter .back-blur{
     z-index: 0;
 }
 
-.bookbuds h1{
+.fantom-starter h1{
     position: relative;
     color: white;
     margin-top: 100px;
@@ -16,7 +16,7 @@
     z-index: 1000;
 }
 
-.bookbuds p{
+.fantom-starter p{
     position: relative;
     color: white;
     margin-bottom: 20px;
@@ -43,12 +43,12 @@
     column-gap: 32px;
 }
 
-.upside img{
+/* .upside img{
     width: 100%;
     border: 1px solid #ffffff12;
     border-radius: 20px;
     transition: 0.5s;
-}
+} */
 
 .upside img:hover{
     box-shadow: 0px 26px 100px 0px rgba(0, 0, 0, 0.90); 
