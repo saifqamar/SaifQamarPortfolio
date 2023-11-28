@@ -37,14 +37,14 @@
     
 }
 
-.upside{
+ .upside{
     /* width: 50%; */
     display: flex;
     column-gap: 32px;
 }
 
 .upside img{
-    width: 100%;
+    width: 48%;
     border: 1px solid #ffffff12;
     border-radius: 20px;
     transition: 0.5s;

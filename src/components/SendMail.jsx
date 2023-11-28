@@ -34,6 +34,10 @@ const SendMail = (props)=>{
 
     return(
         <div className="mail-con">
+                <div className="sec" style={{'color': 'black'}}>
+                    <div className="back-blur"></div>
+                    <div className="back-blur-red"></div>
+                </div>
             <div className="container mailbox-f">
                 <div className="mailbox">
                     <h1>Contact Me</h1>

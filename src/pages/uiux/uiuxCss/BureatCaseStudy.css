@@ -69,3 +69,10 @@
     box-shadow: 0px 26px 100px 0px rgba(0, 0, 0, 0.90); 
 
 }
+
+/* Media Queries */
+@media only screen and (max-width: 750px){
+    .sec-1{
+        row-gap: 16px;
+    }
+}

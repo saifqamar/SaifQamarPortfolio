@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import '../App.css';
 // import PhotoCards from "./PhotoCards";
 import Cards from "./Cards";
@@ -10,6 +10,8 @@ import data from "../data";
 const Services = () => {
     const [activeCategory, setActiveCategory] = useState('uiux');
 
+    useEffect(() => {
+    }, [])
     const handleCategoryClick = (category) => {
         setActiveCategory(category);
     };
@@ -33,12 +35,12 @@ const Services = () => {
         <div className="ser-back">
             <div className="container services" id="work">
                 <h1 data-aos='fade-up'>Work</h1>
-                {/* <ul className="ser-btn">
+                <ul className="ser-btn">
                     <button onClick={() => handleCategoryClick("uiux")} className="service-ui active-ser" id="uiux">UI/UX</button>
                     <button onClick={() => handleCategoryClick("web_dev")} className="service-ui" id="web_dev">Web Dev</button>
-                    <button onClick={() => handleCategoryClick("photography")} className="service-ui" id="photography">Photography</button>
+                    {/* <button onClick={() => handleCategoryClick("photography")} className="service-ui" id="photography">Photography</button> */}
                     
-                </ul> */}
+                </ul>
             </div>
             <div className="container">
                 <Cards activeData={data[activeCategory].slice(0, 3)} cat={activeCategory} />

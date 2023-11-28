@@ -12,6 +12,8 @@ import SendMail from './components/SendMail';
 import RedoilCaseStudy from './pages/uiux/RedoilCaseStudy';
 import BureatCaseStudy from './pages/uiux/BureatCaseStudy';
 import BookBudsCaseStudy from './pages/uiux/BookBudsCaseStudy';
+import FantomStarterLP from './pages/webdev/FantomStarterLP';
+import Swms from './pages/webdev/Swms';
 import About from './pages/About';
 import Aos from 'aos';
 import 'aos/dist/aos.css'
@@ -39,6 +41,8 @@ function App() {
         <Route path="/SaifQamarPortfolio/:cat/redoil-case-study" element={<RedoilCaseStudy />} />
         <Route path="/SaifQamarPortfolio/:cat/bureat-case-study" element={<BureatCaseStudy />} />
         <Route path="/SaifQamarPortfolio/:cat/bookbuds-case-study" element={<BookBudsCaseStudy />} />
+        <Route path="/SaifQamarPortfolio/:cat/fantom-starter-landing-page" element={<FantomStarterLP />} />
+        <Route path="/SaifQamarPortfolio/:cat/smart-waste-management-system" element={<FantomStarterLP />} />
 
       </Routes>
       <FooterSec />

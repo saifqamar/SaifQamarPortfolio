@@ -1,8 +1,7 @@
 import React from "react";
 import ProjectDetailsData from "../../ProjectDetailsData";
-import '../../App.css';
 import { useState, useParams, useEffect } from "react";
-import './uiuxCss/BookBudsCaseStudy.css'
+import './uiuxCss/BookBudsCaseStudy.css';
 
 
 
