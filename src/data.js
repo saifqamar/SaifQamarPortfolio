@@ -1,12 +1,12 @@
 export default
     {
         web_dev: [
-            {
-              id: 1,
-              img: "https://i.pinimg.com/736x/cf/d0/0f/cfd00ff613363792d38fb666df03331e.jpg",
-              title: "FYP: Smart Waste Management System",
-              path: "smart-waste-management-system"
-            },
+            // {
+            //   id: 1,
+            //   img: "https://i.pinimg.com/736x/cf/d0/0f/cfd00ff613363792d38fb666df03331e.jpg",
+            //   title: "FYP: Smart Waste Management System",
+            //   path: "smart-waste-management-system"
+            // },
             {
               id: 2,
               img: "https://drive.google.com/uc?export=view&id=1Bg7yw6hvfKgmb1crH7l944vuEJ58ZSF6",

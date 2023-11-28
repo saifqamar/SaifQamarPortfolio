@@ -103,3 +103,37 @@
 .main-pic:hover{
     box-shadow: 0px 91.80638px 88.5276px 0px rgba(0, 0, 0, 0.50);
 }
+
+
+/* Media Queries */
+@media only screen and (max-width: 750px){
+    .sec{
+        row-gap: 20px;
+    }
+    
+    .sec-1{
+        row-gap: 16px;
+    }
+
+    .upside{
+        column-gap: 16px;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .sec{
+        row-gap: 20px;
+    }
+
+    .sec-1{
+        row-gap: 12px;
+
+    }
+    .upside{
+        columns: 12px;
+    }
+
+    .upside img{
+        border-radius: 10px;
+    }
+}
