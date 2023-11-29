@@ -29,7 +29,7 @@ const Header = () => {
       <ul className={isSmallScreen ? "links show-links" : "links"}>
       {/* <HashLink exact to={'/SaifQamarPortfolio#home'} className={'link'}><li>Home</li></HashLink> */}
       <HashLink exact to={'/SaifQamarPortfolio#work'}  className={'link'}><li>Projects</li></HashLink>
-      <HashLink exact to={'/SaifQamarPortfolio#work'}  className={'link'}><li>Blogs</li></HashLink>
+      {/* <HashLink exact to={'/SaifQamarPortfolio#work'}  className={'link'}><li>Blogs</li></HashLink> */}
       <HashLink exact to={'/SaifQamarPortfolio#about'} className={'link'}><li>About</li></HashLink>
       <HashLink exact to={'/SaifQamarPortfolio/contact'} className={'link'}><li>Contact</li></HashLink>        
       </ul>
