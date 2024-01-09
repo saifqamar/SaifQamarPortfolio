@@ -51,9 +51,9 @@ export default FantomStarterLP =>{
                 <>
                     <h1>FS Exchange Landing page</h1>
                     <img className="main-pic" src={images[0]} alt="fs exchange hero section" />
-                    <p>Bureat is an innovative fast food company that has disrupted the traditional fast food landscape with its fresh and flavorful offerings. With a commitment to quality, convenience, and customer satisfaction, Bureat has quickly gained popularity among food enthusiasts seeking a new and exciting fast food experience. The company takes pride in sourcing high-quality ingredients, preparing delicious meals, and delivering them with exceptional service.</p>
-                    <p>My role was to design Logo and UI/UX for the app. I developed wireframes and interactive prototypes using industry-standard tool like Figma. This allowed me to establish the app's layout, navigation, and flow of screens.</p>
-                    
+                    <p>Our team recently undertook the development of a Landing Page based on the UI design provided by our client. Collaborating with two talented friends, we utilized React to bring the vision to life. The project, acquired through Fiverr, played a pivotal role in advancing our skills in front-end development.</p>
+                    <p>Throughout the one-month development journey, we focused on ensuring the Landing Page was not only visually appealing but also responsive. The integration of APIs with Contentful added a layer of complexity to the project, requiring seamless connectivity through GraphQL APIs. Despite the challenges, our dedication and collaborative efforts resulted in a final product that met both our client's expectations and the standards of modern web development.</p>                    
+                    <p>Despite the challenges, our dedication and collaborative efforts resulted in a final product that not only met the client's expectations but also aligned with the modern standards of web development. This experience underscored the importance of addressing performance issues in web development projects and highlighted our ability to find innovative solutions to technical challenges, reinforcing our commitment to delivering high-quality outcomes.</p>
                     <div className="sec" style={{'color': 'black'}}>
                         <div className="back-blur"></div>
                         <div className="back-blur-red"></div>
@@ -69,7 +69,7 @@ export default FantomStarterLP =>{
                         <div className="details-sec-2">
                             <div className="role">
                                 <p className="role-heading">Role/Team</p>
-                                <p className="">My role was to create UI design for the website which is user friendly.</p>
+                                <p className="">My role was to Lead the team and take part in creating Responsive design.</p>
                             </div>
 
                             <div className="tools">
@@ -84,7 +84,7 @@ export default FantomStarterLP =>{
 
                             <div className="client">
                                 <p className="role-heading">CLIENT/DATE/DURATION</p>
-                                <p className="">An Ausie Woman who was the owner of the business. I had to complete it in 30 days.</p>
+                                <p className="">A Crypto trading company with name FS Exchange.</p>
                             </div>
                         </div>
 

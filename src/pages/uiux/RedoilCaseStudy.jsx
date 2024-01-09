@@ -1,5 +1,5 @@
 import React from "react";
-import '../../App.css';
+// import '../../App.css';
 import './uiuxCss/RedOilCS.css';
 import { useState, useEffect } from "react";
 
@@ -121,29 +121,29 @@ export default RedoilCaseStudy =>{
                     </div>
 
                     <div className="container visual-design">
-                        <h1>Visual Design & Prototype</h1>
-                        <p>The next plan of action was to create colour palettes and typography that would help communicate the brand’s identity and also give the product an exciting feel.</p>
-                        <img className="style-guide" src={images[6]} alt="style guide" />
+                        <h1 data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom">Visual Design & Prototype</h1>
+                        <p data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom">The next plan of action was to create colour palettes and typography that would help communicate the brand’s identity and also give the product an exciting feel.</p>
+                        <img className="style-guide" src={images[6]} alt="style guide" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom" />
                     </div>
 
                     <div className="container high-fidelity">
-                        <h1>High Fidelity Designs</h1>
+                        <h1 data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom">High Fidelity Designs</h1>
                         <div className="whole-sec">
 
                             <div className="left-sec">
-                                <img src={images[7]} alt="Home Page" />
-                                <img src={images[8]} alt="Product Details page" />
-                                <img src={images[9]} alt="Results Page" />
-                                <img src={images[10]} alt="FAQs Page" />
+                                <img src={images[7]} alt="Home Page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
+                                <img src={images[8]} alt="Product Details page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
+                                <img src={images[9]} alt="Results Page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
+                                <img src={images[10]} alt="FAQs Page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
                             </div>
                             <div className="right-sec">
-                                <img src={images[11]} alt="Products Page" />
-                                <img src={images[12]} alt="About Page" />
-                                <img src={images[13]} alt="Cart Page" />
-                                <img src={images[14]} alt="Oil Details Page" />
-                                <img src={images[15]} alt="Personal Details Page" />
-                                <img src={images[16]} alt="Payment Details Page" />
-                                <img src={images[17]} alt="Thankyou Page" />
+                                <img src={images[11]} alt="Products Page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
+                                <img src={images[12]} alt="About Page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
+                                <img src={images[13]} alt="Cart Page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
+                                <img src={images[14]} alt="Oil Details Page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
+                                <img src={images[15]} alt="Personal Details Page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
+                                <img src={images[16]} alt="Payment Details Page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
+                                <img src={images[17]} alt="Thankyou Page" data-aos='fade-up' data-aos-duration="500" data-aos-mirror="true" data-aos-easing="ease-in-out" data-aos-anchor-placement="top-bottom"/>
                                 
                             </div>
                         </div>

@@ -23,7 +23,7 @@ const About = () => {
                         </span></button></Link>
                     </div> */}
 
-                    <div className="show-more-btn-con about-btn">
+                    {/* <div className="show-more-btn-con about-btn">
                         <Link to={`/SaifQamarPortfolio/about`} style={{ textDecoration: 'none' }}>
                             <button className="show-more-btn contact-btn about-btn-black" style={{ display:  'flex', background:'black' }}>
                                 <span>Show More</span> 
@@ -32,7 +32,7 @@ const About = () => {
                                 </span>
                             </button>
                         </Link>
-                    </div>
+                    </div> */}
                     
                 </div>
             </div>

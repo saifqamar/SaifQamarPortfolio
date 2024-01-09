@@ -93,11 +93,15 @@
 }
 
 .main-pic{
+    position: relative;
     width: 100%;
+    height: 100%;
+    object-fit: cover;
     margin-top: 30px;
     margin-bottom: 30px;
     border-radius: 30px;
     transition: 0.3s;
+    z-index: inherit;
 }
 
 .main-pic:hover{
@@ -118,6 +122,30 @@
     .upside{
         column-gap: 16px;
     }
+
+    .fantom-starter h1{
+        font-size: 24px;
+        margin-bottom: 0px;
+        margin-top: 80px;
+    }
+
+    .details-sec-2{
+        flex-wrap: wrap;
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    .role{
+        width: 45%;
+    }
+
+    .tools{
+        width: 40%;
+    }
+
+    .client{
+        width: 65%;
+    }
 }
 
 @media only screen and (max-width: 500px){
@@ -135,5 +163,41 @@
 
     .upside img{
         border-radius: 10px;
+    }
+
+    .fantom-starter h1{
+        font-size: 24px;
+        margin-bottom: 0px;
+        margin-top: 60px;
+    }
+    
+}
+
+
+@media only screen and (max-width: 380px){
+    
+    .details-sec-2{
+        flex-wrap: wrap;
+        row-gap: 30px;
+        column-gap: 30px;
+    }
+
+    .role{
+        width: 100%;
+    }
+
+    .tools{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .client{
+        width: 100%;
+    }
+
+    .fantom-starter h1{
+        font-size: 24px;
+        margin-bottom: 0px;
+        margin-top: 50px;
     }
 }
