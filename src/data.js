@@ -2,8 +2,9 @@ export default
     {
         web_dev: [
             {
+              // https://drive.google.com/file/d/1b65OkMaugBOs4n5QtPfRzDU280RUf4Kn/view?usp=drive_link
               id: 1,
-              img: "https://i.pinimg.com/736x/cf/d0/0f/cfd00ff613363792d38fb666df03331e.jpg",
+              img: "https://drive.google.com/uc?export=view&id=1b65OkMaugBOs4n5QtPfRzDU280RUf4Kn",
               title: "FYP: Smart Waste Management System",
               path: "smart-waste-management-system"
             },

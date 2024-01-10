@@ -42,7 +42,7 @@ function App() {
         <Route path="/SaifQamarPortfolio/:cat/bureat-case-study" element={<BureatCaseStudy />} />
         <Route path="/SaifQamarPortfolio/:cat/bookbuds-case-study" element={<BookBudsCaseStudy />} />
         <Route path="/SaifQamarPortfolio/:cat/fantom-starter-landing-page" element={<FantomStarterLP />} />
-        <Route path="/SaifQamarPortfolio/:cat/smart-waste-management-system" element={<FantomStarterLP />} />
+        <Route path="/SaifQamarPortfolio/:cat/smart-waste-management-system" element={<Swms />} />
 
       </Routes>
       <FooterSec />
