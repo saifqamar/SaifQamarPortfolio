@@ -4,13 +4,13 @@ export default
             {
               // https://drive.google.com/file/d/1b65OkMaugBOs4n5QtPfRzDU280RUf4Kn/view?usp=drive_link
               id: 1,
-              img: "https://drive.google.com/uc?export=view&id=1b65OkMaugBOs4n5QtPfRzDU280RUf4Kn",
+              img: "https://i.imgur.com/G5JrMbq.jpg",
               title: "FYP: Smart Waste Management System",
               path: "smart-waste-management-system"
             },
             {
               id: 2,
-              img: "https://drive.google.com/uc?export=view&id=1Bg7yw6hvfKgmb1crH7l944vuEJ58ZSF6",
+              img: "https://i.imgur.com/KUp2xMU.png",
               title: "Fantom Starter Landing Page",
               path: "fantom-starter-landing-page",
               
@@ -25,23 +25,20 @@ export default
           uiux: [
             {
               id: 1,
-              // https://drive.google.com/file/d/1kHkcffTejIeEkhqH14J61Edm9JHhrKNU/view?usp=sharing
-              img: "https://drive.google.com/uc?export=view&id=1wQ_8Ty4hAk_Q_VSuoDW40yQy-u_NfDMJ",
+              img: "https://i.imgur.com/bIpsGYq.jpg",
               title: "RedOil Hair Regrowth Website",
               path:"redoil-case-study",
               alt: "redoil case study card image"
             },
             {
               id: 2,
-              // https://drive.google.com/file/d/1jkQBpZAXYFBck6lvcD2enS6MUcFwCaxX/view?usp=drive_link
-              img: "https://drive.google.com/uc?export=view&id=1jkQBpZAXYFBck6lvcD2enS6MUcFwCaxX",
+              img: "https://i.imgur.com/CP9hEH4.png",
               title: "Case Study: Bureat",
               path: "bureat-case-study"
             },
             {
               id: 3,
-              // https://drive.google.com/file/d/1mfu1zvaEkWr9rl7bEZk8EfcQDuM-SmMo/view?usp=drive_link
-              img: "https://drive.google.com/uc?export=view&id=1mfu1zvaEkWr9rl7bEZk8EfcQDuM-SmMo",
+              img: "https://i.imgur.com/5JNYw0C.png",
               title: "BookBuds App Design",
               path: "bookbuds-case-study"
             },

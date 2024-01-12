@@ -19,7 +19,7 @@ const Header = () => {
           <HashLink exact to={'/SaifQamarPortfolio#home'} className={'link'}>
             <div className="logo" style={{display:'flex', width:'50%', padding:'20px', alignItems:'baseline', columnGap:'5px'}}>
               {/* https://drive.google.com/file/d//view?usp=sharing */}
-                <h3 style={{color:'white'}}><img style={{height:'30px',}} src='https://drive.google.com/uc?export=view&id=1C7iF95dduOltPMd2q0qweus11eEmLmTg' /></h3><span style={{color:'#7979ea', fontWeight:'bold', fontSize:'10px'}}>Beta</span>
+                <h3 style={{color:'white'}}><img style={{height:'30px',}} crossOrigin='anonymous' src={'https://i.imgur.com/5AMfS72.png' } /></h3><span style={{color:'#7979ea', fontWeight:'bold', fontSize:'10px'}}>Beta</span>
             </div>
           </HashLink>
           <button class="nav-toggle" onClick={showlist}>

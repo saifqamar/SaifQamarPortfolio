@@ -10,7 +10,7 @@ const About = () => {
             <h1 data-aos='fade-up'>About</h1>
             <div className="whole-about-sec" data-aos='fade-up'>
                 <div className="my-pic">
-                    <img src="https://drive.google.com/uc?export=view&id=1kHkcffTejIeEkhqH14J61Edm9JHhrKNU" alt="" />
+                    <img src="https://i.imgur.com/it2M6mL.jpg" alt="" />
                 </div>
                 <div className="about-details">
                     <p>I am UI/UX designer based in Pakistan. Over the years I worked with multiple companies to craft interfaces which were visually appealing and simple to use. I have been working in freelancing industry for years and dealt with many challenges in fast paced environment. I am dedicated to crafting exceptional user experiences through intuitive and visually captivating designs. With a user-centric approach, I prioritize understanding the needs and motivations of users to create impactful digital experiences that resonate with them.</p>

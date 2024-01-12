@@ -15,8 +15,8 @@ export default FantomStarterLP =>{
     const images = ProjectDetailsData['web_dev'][0]['images'];
   
     useEffect(()=>{
-        if (imgsLoaded === false){
-        window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
+        if (imgsLoaded === true){
+            window.scrollTo(0, 0); // Scrolls to the top of the page when the component mounts
         }
     });
 
