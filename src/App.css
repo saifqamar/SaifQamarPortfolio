@@ -646,7 +646,7 @@ filter: blur(100px);
 
 .mail-con{
   /* position: absolute; */
-  height: 100vh;
+  height: 85vh;
   background-color: #181818;
   
   z-index: 1000;

@@ -19,7 +19,7 @@ const Hero = () =>{
                     </div>
                     <div className="heading">
                         <h1 data-aos='fade-up' data-aos-duration='1000'>Hi, <br /> I'm Saif</h1>
-                        <p data-aos='fade-up'>a UIUX Designer who is passionate about creating Digital epxeriences Through problem solving.</p>
+                        <p data-aos='fade-up'>a UIUX Designer and Web Developer who is passionate about creating Digital epxeriences Through problem solving.</p>
                     </div>
 
                     {/* <img className="main-img" src="images/main.jpg" alt="" /> */}
