@@ -5,7 +5,7 @@ export default
               id: 1,
               title: "Building Web Applications with React",
               images: [
-                "https://i.imgur.com/KUp2xMU.png",
+                "https://i.imgur.com/1M1jFn3.png",
 
               ] 
             },

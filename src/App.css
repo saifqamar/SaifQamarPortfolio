@@ -186,17 +186,33 @@ filter: blur(100px);
 }
 
 .ser-back{
+  position: relative;
   width: 100%;
   /* height: auto; */
   /* background: #181818; */
-  overflow: hidden;
+  /* overflow: hidden; */
   padding-bottom: 100px;
 }
 
 .services{
-  /* margin-top: 50px; */
+  position:relative;
   color: white;
   text-align: center;
+  z-index: 60;
+}
+
+.ser-blk-blue{
+  top: auto;
+  bottom: 0%;
+  right: 5%;
+  left: auto;
+}
+
+.ser-blk-red{
+  right: auto;
+  left: 5%;
+  top: 0% !important;
+  z-index: 50;
 }
 
 .services h1{
@@ -264,6 +280,8 @@ filter: blur(100px);
   justify-content: center;
   flex-direction: column;
   /* flex-wrap:wrap; */
+  position: relative;
+  z-index: 100;
 
 }
 
@@ -407,6 +425,7 @@ filter: blur(100px);
 .about-sec{
   max-width: 1440px;
   margin: auto;
+  position: relative;
   /* margin-top: 100px; */
 }
 
@@ -545,11 +564,24 @@ filter: blur(100px);
 }
 
 /* Contact */
+.Contact-Whole-sec{
+  position: relative;
+}
+
 .contact-box{
   background: #0E0E0E;
   margin-top: 100px;
   height: auto;
   border-radius: 10px;
+}
+
+.ser-blk-blue-cont{
+  top: 50%;
+  left: 50%;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(-50%, -50%);
+
 }
 
 .contact-box:hover {
@@ -826,6 +858,13 @@ filter: blur(100px);
     top: 7%;
   }
 
+  .ser-blk-blue{
+    top: auto;
+    bottom: 0%;
+    right: 5%;
+    left: auto;
+  }
+
   .cards{
     flex-direction: column;
     justify-content: center;
@@ -973,6 +1012,7 @@ filter: blur(100px);
   }
 
   .ser-back{
+    position: relative;
     padding-bottom: 50px;
   }
 
@@ -1088,6 +1128,15 @@ filter: blur(100px);
     top: 10%;
     right: 22%;
   }
+
+  .ser-blk-blue{
+    top: auto;
+    bottom: 0%;
+    right: 5%;
+    left: auto;
+  }
+
+  
   .work-det{
     flex-direction: column;
     align-items: center;

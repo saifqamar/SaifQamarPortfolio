@@ -10,7 +10,7 @@ export default
             },
             {
               id: 2,
-              img: "https://i.imgur.com/KUp2xMU.png",
+              img: "https://i.imgur.com/1M1jFn3.png",
               title: "Fantom Starter Landing Page",
               path: "fantom-starter-landing-page",
               
