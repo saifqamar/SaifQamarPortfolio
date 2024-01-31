@@ -33,6 +33,8 @@ const Services = () => {
 
     return (
         <div className="ser-back">
+                <div className="back-blur ser-blk-blue"></div>
+                <div className="back-blur-red ser-blk-red"></div>
             <div className="container services" id="work">
                 <h1 data-aos='fade-up'>Work</h1>
                 <ul className="ser-btn">

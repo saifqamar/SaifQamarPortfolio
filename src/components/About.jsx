@@ -7,6 +7,8 @@ import { Link } from "react-router-dom";
 const About = () => {
     return (
         <div className="about-sec container"  id="about">
+
+                <div className="back-blur-red ser-blk-red"></div>
             <h1 data-aos='fade-up'>About</h1>
             <div className="whole-about-sec" data-aos='fade-up'>
                 <div className="my-pic">
